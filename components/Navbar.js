@@ -8,6 +8,12 @@ export default function Navbar() {
   const [servicesOpen, setServicesOpen] = useState(false)
   const [mobileServicesOpen, setMobileServicesOpen] = useState(false)
 
+  // Close mobile menu when navigating
+  const closeMobileMenu = () => {
+    setIsOpen(false)
+    setMobileServicesOpen(false)
+  }
+
   const services = [
     { name: 'Gmail PVA Accounts', href: '/gmail-pva-accounts' },
     { name: 'Instagram PVA Accounts', href: '/instagram-pva-accounts' },
@@ -105,16 +111,16 @@ export default function Navbar() {
         {isOpen && (
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 bg-white border-t">
-              <Link href="/" className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors">
+              <Link href="/" className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors" onClick={closeMobileMenu}>
                 Home
               </Link>
-              <Link href="/about" className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors">
+              <Link href="/about" className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors" onClick={closeMobileMenu}>
                 About
               </Link>
-              <Link href="/blog" className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors">
+              <Link href="/blog" className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors" onClick={closeMobileMenu}>
                 Blog
               </Link>
-              <Link href="/privacy" className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors">
+              <Link href="/privacy" className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors" onClick={closeMobileMenu}>
                 Privacy
               </Link>
 
@@ -122,28 +128,36 @@ export default function Navbar() {
               <div className="py-2">
                 <button
                   onClick={() => setMobileServicesOpen(!mobileServicesOpen)}
-                  className="flex items-center justify-between w-full px-3 py-2 text-gray-900 font-medium hover:text-blue-600 transition-colors"
+                  aria-expanded={mobileServicesOpen}
+                  aria-controls="mobile-services-menu"
+                  className="flex items-center justify-between w-full px-3 py-2 text-gray-900 font-medium hover:text-blue-600 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-inset"
                 >
                   <span>Services</span>
-                  <ChevronDown className={`h-4 w-4 transform transition-transform ${mobileServicesOpen ? 'rotate-180' : ''}`} />
+                  <ChevronDown className={`h-4 w-4 transform transition-transform duration-200 ease-in-out ${mobileServicesOpen ? 'rotate-180' : ''}`} />
                 </button>
-                {mobileServicesOpen && (
+                <div
+                  id="mobile-services-menu"
+                  className={`overflow-hidden transition-all duration-300 ease-in-out ${
+                    mobileServicesOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
+                  }`}
+                  aria-hidden={!mobileServicesOpen}
+                >
                   <div className="pl-6 space-y-1 mt-1">
                     {services.map((service) => (
                       <Link
                         key={service.name}
                         href={service.href}
                         className="block px-3 py-2 text-sm text-gray-700 hover:text-blue-600 transition-colors"
-                        onClick={() => setIsOpen(false)}
+                        onClick={closeMobileMenu}
                       >
                         {service.name}
                       </Link>
                     ))}
                   </div>
-                )}
+                </div>
               </div>
 
-              <Link href="/order-now" className="block px-3 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+              <Link href="/order-now" className="block px-3 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors" onClick={closeMobileMenu}>
                 Order Now
               </Link>
             </div>
