@@ -6,6 +6,7 @@ import Logo from './Logo'
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
   const [servicesOpen, setServicesOpen] = useState(false)
+  const [mobileServicesOpen, setMobileServicesOpen] = useState(false)
 
   const services = [
     { name: 'Gmail PVA Accounts', href: '/gmail-pva-accounts' },
@@ -119,19 +120,27 @@ export default function Navbar() {
 
               {/* Mobile Services */}
               <div className="py-2">
-                <div className="px-3 py-2 text-gray-900 font-medium">Services</div>
-                <div className="pl-6 space-y-1">
-                  {services.map((service) => (
-                    <Link
-                      key={service.name}
-                      href={service.href}
-                      className="block px-3 py-2 text-sm text-gray-700 hover:text-blue-600 transition-colors"
-                      onClick={() => setIsOpen(false)}
-                    >
-                      {service.name}
-                    </Link>
-                  ))}
-                </div>
+                <button
+                  onClick={() => setMobileServicesOpen(!mobileServicesOpen)}
+                  className="flex items-center justify-between w-full px-3 py-2 text-gray-900 font-medium hover:text-blue-600 transition-colors"
+                >
+                  <span>Services</span>
+                  <ChevronDown className={`h-4 w-4 transform transition-transform ${mobileServicesOpen ? 'rotate-180' : ''}`} />
+                </button>
+                {mobileServicesOpen && (
+                  <div className="pl-6 space-y-1 mt-1">
+                    {services.map((service) => (
+                      <Link
+                        key={service.name}
+                        href={service.href}
+                        className="block px-3 py-2 text-sm text-gray-700 hover:text-blue-600 transition-colors"
+                        onClick={() => setIsOpen(false)}
+                      >
+                        {service.name}
+                      </Link>
+                    ))}
+                  </div>
+                )}
               </div>
 
               <Link href="/order-now" className="block px-3 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">

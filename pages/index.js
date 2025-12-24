@@ -1,11 +1,136 @@
 import Head from 'next/head'
-import { ShieldCheck, Zap, CheckCircle, Clock, Star, MessageCircle, Mail, Camera, Users, Play, Phone, ThumbsUp, Bird, Lock, Instagram, Facebook, Twitter, Youtube, Globe, Smartphone, Linkedin, Github, Briefcase } from 'lucide-react'
+import { ShieldCheck, Zap, CheckCircle, Clock, Star, MessageCircle, Mail, Camera, Users, Play, Phone, ThumbsUp, Bird, Lock, Instagram, Facebook, Twitter, Youtube, Globe, Smartphone, Linkedin, Github, Briefcase, Pin, Apple, MessageSquare, Flame, Heart } from 'lucide-react'
 import Link from 'next/link'
 import Image from 'next/image'
 // import { motion } from 'framer-motion'
 import Navbar from '../components/Navbar'
 
 export default function Home() {
+<<<<<<< HEAD
+=======
+  const services = [
+    {
+      icon: Mail,
+      title: 'Gmail PVA Accounts',
+      oldPrice: '$15.00',
+      newPrice: '$500.00',
+      buttonText: 'Coming Soon'
+    },
+    {
+      icon: Camera,
+      title: 'Instagram PVA Accounts',
+      oldPrice: '$12.00',
+      newPrice: '$500.00',
+      buttonText: 'Coming Soon'
+    },
+    {
+      icon: ThumbsUp,
+      title: 'Facebook PVA Accounts',
+      oldPrice: '$25.00',
+      newPrice: '$450.00',
+      buttonText: 'Coming Soon'
+    },
+    {
+      icon: Bird,
+      title: 'Twitter PVA Accounts',
+      oldPrice: '$20.00',
+      newPrice: '$350.00',
+      buttonText: 'Coming Soon'
+    },
+    {
+      icon: Smartphone,
+      title: 'Threads PVA Accounts',
+      oldPrice: '$18.00',
+      newPrice: '$400.00',
+      buttonText: 'Coming Soon'
+    },
+    {
+      icon: Play,
+      title: 'YouTube PVA Accounts',
+      oldPrice: '$40.00',
+      newPrice: '$800.00',
+      buttonText: 'Coming Soon'
+    },
+    {
+      icon: Pin,
+      title: 'TikTok PVA Accounts',
+      oldPrice: '$22.00',
+      newPrice: '$600.00',
+      buttonText: 'Coming Soon'
+    },
+    {
+      icon: Pin,
+      title: 'Pinterest PVA Accounts',
+      oldPrice: '$16.00',
+      newPrice: '$350.00',
+      buttonText: 'Coming Soon'
+    },
+    {
+      icon: Apple,
+      title: 'iCloud Accounts',
+      oldPrice: '$30.00',
+      newPrice: '$700.00',
+      buttonText: 'Coming Soon'
+    },
+    {
+      icon: Phone,
+      title: 'Google Voice Accounts',
+      oldPrice: '$10.00',
+      newPrice: '$100.00',
+      buttonText: 'Coming Soon'
+    },
+    {
+      icon: MessageSquare,
+      title: 'Telegram PVA Accounts',
+      oldPrice: '$14.00',
+      newPrice: '$300.00',
+      buttonText: 'Coming Soon'
+    },
+    {
+      icon: Linkedin,
+      title: 'LinkedIn PVA Accounts',
+      oldPrice: '$35.00',
+      newPrice: '$750.00',
+      buttonText: 'Coming Soon'
+    },
+    {
+      icon: MessageCircle,
+      title: 'WeChat Accounts',
+      oldPrice: '$25.00',
+      newPrice: '$550.00',
+      buttonText: 'Coming Soon'
+    },
+    {
+      icon: Mail,
+      title: 'Firstmail Accounts',
+      oldPrice: '$8.00',
+      newPrice: '$200.00',
+      buttonText: 'Coming Soon'
+    },
+    {
+      icon: Camera,
+      title: 'Snapchat Accounts',
+      oldPrice: '$18.00',
+      newPrice: '$400.00',
+      buttonText: 'Coming Soon'
+    },
+    {
+      icon: Heart,
+      title: 'Tinder Accounts',
+      oldPrice: '$12.00',
+      newPrice: '$250.00',
+      buttonText: 'Coming Soon'
+    },
+    {
+      icon: Mail,
+      title: 'Yahoo PVA Accounts',
+      oldPrice: '$13.00',
+      newPrice: '$280.00',
+      buttonText: 'Coming Soon'
+    }
+  ]
+
+>>>>>>> 5a4dfc3 (Update code)
   return (
     <>
       <Head>
