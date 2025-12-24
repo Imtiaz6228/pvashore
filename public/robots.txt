@@ -1,15 +1,15 @@
-# Allow all robots by default
 User-agent: *
 Allow: /
 
-# Disallow specific directories if needed
+# Block access to admin areas (if any)
 Disallow: /admin/
-Disallow: /private/
+Disallow: /api/private/
+
+# Allow access to sitemap
+Allow: /sitemap.xml
+
+# Crawl delay (optional)
+Crawl-delay: 1
 
 # Sitemap location
-Sitemap: https://pvapanel.com/sitemap.xml
-
-# Additional sitemaps for AI agents
-Sitemap: https://pvapanel.com/sitemap-chatgpt.xml
-Sitemap: https://pvapanel.com/sitemap-grok.xml
-Sitemap: https://pvapanel.com/sitemap-gemini.xml
+Sitemap: https://yourwebsite.com/sitemap.xml
