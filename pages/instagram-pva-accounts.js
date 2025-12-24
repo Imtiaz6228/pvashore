@@ -126,7 +126,7 @@ export default function InstagramPVAAccounts() {
                     Bulk Discount
                   </li>
                 </ul>
-                <Link href="/checkout?service=instagram&quantity=100&tier=fresh">
+                <Link href="/?service=instagram&quantity=100&tier=fresh">
                   <button className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
                     Order Now
                   </button>
@@ -149,7 +149,7 @@ export default function InstagramPVAAccounts() {
                     Maximum Value
                   </li>
                 </ul>
-                <Link href="/checkout?service=instagram&quantity=200&tier=fresh">
+                <Link href="/?service=instagram&quantity=200&tier=fresh">
                   <button className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
                     Order Now
                   </button>
@@ -173,7 +173,7 @@ export default function InstagramPVAAccounts() {
                     Best Bulk Price
                   </li>
                 </ul>
-                <Link href="/checkout?service=instagram&quantity=500&tier=fresh">
+                <Link href="/?service=instagram&quantity=500&tier=fresh">
                   <button className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
                     Order Now
                   </button>
@@ -196,7 +196,7 @@ export default function InstagramPVAAccounts() {
                     Ultimate Bulk Deal
                   </li>
                 </ul>
-                <Link href="/checkout?service=instagram&quantity=1000&tier=fresh">
+                <Link href="/?service=instagram&quantity=1000&tier=fresh">
                   <button className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
                     Order Now
                   </button>
@@ -226,7 +226,7 @@ export default function InstagramPVAAccounts() {
                     Established Accounts
                   </li>
                 </ul>
-                <Link href="/checkout?service=instagram&quantity=10&tier=1-6months">
+                <Link href="/?service=instagram&quantity=10&tier=1-6months">
                   <button className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
                     Order Now
                   </button>
@@ -249,7 +249,7 @@ export default function InstagramPVAAccounts() {
                     Bulk Discount
                   </li>
                 </ul>
-                <Link href="/checkout?service=instagram&quantity=50&tier=1-6months">
+                <Link href="/?service=instagram&quantity=50&tier=1-6months">
                   <button className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
                     Order Now
                   </button>
@@ -273,7 +273,7 @@ export default function InstagramPVAAccounts() {
                     Premium Discount
                   </li>
                 </ul>
-                <Link href="/checkout?service=instagram&quantity=100&tier=1-6months">
+                <Link href="/?service=instagram&quantity=100&tier=1-6months">
                   <button className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
                     Order Now
                   </button>
@@ -296,7 +296,7 @@ export default function InstagramPVAAccounts() {
                     Ultimate Bulk Deal
                   </li>
                 </ul>
-                <Link href="/checkout?service=instagram&quantity=600&tier=1-6months">
+                <Link href="/?service=instagram&quantity=600&tier=1-6months">
                   <button className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
                     Order Now
                   </button>
@@ -326,7 +326,7 @@ export default function InstagramPVAAccounts() {
                     Established Trust
                   </li>
                 </ul>
-                <Link href="/checkout?service=instagram&quantity=5&tier=1year">
+                <Link href="/?service=instagram&quantity=5&tier=1year">
                   <button className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
                     Order Now
                   </button>
@@ -349,7 +349,7 @@ export default function InstagramPVAAccounts() {
                     Bulk Savings
                   </li>
                 </ul>
-                <Link href="/checkout?service=instagram&quantity=25&tier=1year">
+                <Link href="/?service=instagram&quantity=25&tier=1year">
                   <button className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
                     Order Now
                   </button>
@@ -373,7 +373,7 @@ export default function InstagramPVAAccounts() {
                     Maximum Value
                   </li>
                 </ul>
-                <Link href="/checkout?service=instagram&quantity=60&tier=1year">
+                <Link href="/?service=instagram&quantity=60&tier=1year">
                   <button className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
                     Order Now
                   </button>
@@ -396,7 +396,7 @@ export default function InstagramPVAAccounts() {
                     Ultimate Discount
                   </li>
                 </ul>
-                <Link href="/checkout?service=instagram&quantity=100&tier=1year">
+                <Link href="/?service=instagram&quantity=100&tier=1year">
                   <button className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
                     Order Now
                   </button>
@@ -426,7 +426,7 @@ export default function InstagramPVAAccounts() {
                     Maximum Trust
                   </li>
                 </ul>
-                <Link href="/checkout?service=instagram&quantity=5&tier=2years">
+                <Link href="/?service=instagram&quantity=5&tier=2years">
                   <button className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
                     Order Now
                   </button>
@@ -449,7 +449,7 @@ export default function InstagramPVAAccounts() {
                     Elite Discount
                   </li>
                 </ul>
-                <Link href="/checkout?service=instagram&quantity=15&tier=2years">
+                <Link href="/?service=instagram&quantity=15&tier=2years">
                   <button className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
                     Order Now
                   </button>
@@ -473,7 +473,7 @@ export default function InstagramPVAAccounts() {
                     Best Value
                   </li>
                 </ul>
-                <Link href="/checkout?service=instagram&quantity=40&tier=2years">
+                <Link href="/?service=instagram&quantity=40&tier=2years">
                   <button className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
                     Order Now
                   </button>
@@ -496,7 +496,7 @@ export default function InstagramPVAAccounts() {
                     Ultimate Bulk Deal
                   </li>
                 </ul>
-                <Link href="/checkout?service=instagram&quantity=90&tier=2years">
+                <Link href="/?service=instagram&quantity=90&tier=2years">
                   <button className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
                     Order Now
                   </button>

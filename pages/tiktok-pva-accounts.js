@@ -127,7 +127,7 @@ export default function TikTokPVAAccounts() {
                     Bulk Discount
                   </li>
                 </ul>
-                <Link href="/checkout?service=tiktok&quantity=50&tier=fresh">
+                <Link href="/?service=tiktok&quantity=50&tier=fresh">
                   <button className="w-full bg-black text-white py-2 px-4 rounded-lg font-semibold hover:bg-gray-800 transition-colors">
                     Order Now
                   </button>
@@ -150,7 +150,7 @@ export default function TikTokPVAAccounts() {
                     Maximum Value
                   </li>
                 </ul>
-                <Link href="/checkout?service=tiktok&quantity=100&tier=fresh">
+                <Link href="/?service=tiktok&quantity=100&tier=fresh">
                   <button className="w-full bg-black text-white py-2 px-4 rounded-lg font-semibold hover:bg-gray-800 transition-colors">
                     Order Now
                   </button>
@@ -174,7 +174,7 @@ export default function TikTokPVAAccounts() {
                     Best Bulk Price
                   </li>
                 </ul>
-                <Link href="/checkout?service=tiktok&quantity=300&tier=fresh">
+                <Link href="/?service=tiktok&quantity=300&tier=fresh">
                   <button className="w-full bg-black text-white py-2 px-4 rounded-lg font-semibold hover:bg-gray-800 transition-colors">
                     Order Now
                   </button>
@@ -197,7 +197,7 @@ export default function TikTokPVAAccounts() {
                     Ultimate Bulk Deal
                   </li>
                 </ul>
-                <Link href="/checkout?service=tiktok&quantity=500&tier=fresh">
+                <Link href="/?service=tiktok&quantity=500&tier=fresh">
                   <button className="w-full bg-black text-white py-2 px-4 rounded-lg font-semibold hover:bg-gray-800 transition-colors">
                     Order Now
                   </button>
@@ -227,7 +227,7 @@ export default function TikTokPVAAccounts() {
                     Established Accounts
                   </li>
                 </ul>
-                <Link href="/checkout?service=tiktok&quantity=50&tier=1month">
+                <Link href="/?service=tiktok&quantity=50&tier=1month">
                   <button className="w-full bg-black text-white py-2 px-4 rounded-lg font-semibold hover:bg-gray-800 transition-colors">
                     Order Now
                   </button>
@@ -250,7 +250,7 @@ export default function TikTokPVAAccounts() {
                     Bulk Discount
                   </li>
                 </ul>
-                <Link href="/checkout?service=tiktok&quantity=100&tier=1month">
+                <Link href="/?service=tiktok&quantity=100&tier=1month">
                   <button className="w-full bg-black text-white py-2 px-4 rounded-lg font-semibold hover:bg-gray-800 transition-colors">
                     Order Now
                   </button>
@@ -274,7 +274,7 @@ export default function TikTokPVAAccounts() {
                     Premium Discount
                   </li>
                 </ul>
-                <Link href="/checkout?service=tiktok&quantity=300&tier=1month">
+                <Link href="/?service=tiktok&quantity=300&tier=1month">
                   <button className="w-full bg-black text-white py-2 px-4 rounded-lg font-semibold hover:bg-gray-800 transition-colors">
                     Order Now
                   </button>
@@ -297,7 +297,7 @@ export default function TikTokPVAAccounts() {
                     Ultimate Bulk Deal
                   </li>
                 </ul>
-                <Link href="/checkout?service=tiktok&quantity=500&tier=1month">
+                <Link href="/?service=tiktok&quantity=500&tier=1month">
                   <button className="w-full bg-black text-white py-2 px-4 rounded-lg font-semibold hover:bg-gray-800 transition-colors">
                     Order Now
                   </button>

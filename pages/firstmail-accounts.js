@@ -246,7 +246,7 @@ export default function FirstmailPVAAccounts() {
                     30-Day Validity
                   </li>
                 </ul>
-                <Link href="/checkout?service=firstmail&quantity=1&tier=standard">
+                <Link href="/?service=firstmail&quantity=1&tier=standard">
                   <button className="w-full bg-purple-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-purple-700 transition-colors">
                     Order Now
                   </button>
@@ -269,7 +269,7 @@ export default function FirstmailPVAAccounts() {
                     Extended Validity
                   </li>
                 </ul>
-                <Link href="/checkout?service=firstmail&quantity=5&tier=standard">
+                <Link href="/?service=firstmail&quantity=5&tier=standard">
                   <button className="w-full bg-purple-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-purple-700 transition-colors">
                     Order Now
                   </button>
@@ -293,7 +293,7 @@ export default function FirstmailPVAAccounts() {
                     Premium Support
                   </li>
                 </ul>
-                <Link href="/checkout?service=firstmail&quantity=10&tier=standard">
+                <Link href="/?service=firstmail&quantity=10&tier=standard">
                   <button className="w-full bg-purple-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-purple-700 transition-colors">
                     Order Now
                   </button>
@@ -316,7 +316,7 @@ export default function FirstmailPVAAccounts() {
                     Dedicated Management
                   </li>
                 </ul>
-                <Link href="/checkout?service=firstmail&quantity=25&tier=standard">
+                <Link href="/?service=firstmail&quantity=25&tier=standard">
                   <button className="w-full bg-purple-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-purple-700 transition-colors">
                     Order Now
                   </button>
@@ -340,7 +340,7 @@ export default function FirstmailPVAAccounts() {
                     Maximum Value Deal
                   </li>
                 </ul>
-                <Link href="/checkout?service=firstmail&quantity=1000&tier=standard">
+                <Link href="/?service=firstmail&quantity=1000&tier=standard">
                   <button className="w-full bg-green-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-green-700 transition-colors">
                     Order Now
                   </button>
@@ -370,7 +370,7 @@ export default function FirstmailPVAAccounts() {
                     Priority Support
                   </li>
                 </ul>
-                <Link href="/checkout?service=firstmail&quantity=1&tier=premium">
+                <Link href="/?service=firstmail&quantity=1&tier=premium">
                   <button className="w-full bg-purple-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-purple-700 transition-colors">
                     Order Now
                   </button>
@@ -393,7 +393,7 @@ export default function FirstmailPVAAccounts() {
                     Advanced Features
                   </li>
                 </ul>
-                <Link href="/checkout?service=firstmail&quantity=5&tier=premium">
+                <Link href="/?service=firstmail&quantity=5&tier=premium">
                   <button className="w-full bg-purple-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-purple-700 transition-colors">
                     Order Now
                   </button>
@@ -417,7 +417,7 @@ export default function FirstmailPVAAccounts() {
                     VIP Support
                   </li>
                 </ul>
-                <Link href="/checkout?service=firstmail&quantity=10&tier=premium">
+                <Link href="/?service=firstmail&quantity=10&tier=premium">
                   <button className="w-full bg-purple-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-purple-700 transition-colors">
                     Order Now
                   </button>
@@ -440,7 +440,7 @@ export default function FirstmailPVAAccounts() {
                     Enterprise Support
                   </li>
                 </ul>
-                <Link href="/checkout?service=firstmail&quantity=25&tier=premium">
+                <Link href="/?service=firstmail&quantity=25&tier=premium">
                   <button className="w-full bg-purple-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-purple-700 transition-colors">
                     Order Now
                   </button>

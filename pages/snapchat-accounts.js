@@ -235,7 +235,7 @@ export default function SnapchatAccounts() {
                     Instant Delivery
                   </li>
                 </ul>
-                <Link href="/checkout?service=snapchat&quantity=1&tier=standard">
+                <Link href="/?service=snapchat&quantity=1&tier=standard">
                   <button className="w-full bg-yellow-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-yellow-700 transition-colors">
                     Order Now
                   </button>
@@ -258,7 +258,7 @@ export default function SnapchatAccounts() {
                     Priority Setup
                   </li>
                 </ul>
-                <Link href="/checkout?service=snapchat&quantity=5&tier=standard">
+                <Link href="/?service=snapchat&quantity=5&tier=standard">
                   <button className="w-full bg-yellow-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-yellow-700 transition-colors">
                     Order Now
                   </button>
@@ -282,7 +282,7 @@ export default function SnapchatAccounts() {
                     Dedicated Support
                   </li>
                 </ul>
-                <Link href="/checkout?service=snapchat&quantity=10&tier=standard">
+                <Link href="/?service=snapchat&quantity=10&tier=standard">
                   <button className="w-full bg-yellow-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-yellow-700 transition-colors">
                     Order Now
                   </button>
@@ -305,7 +305,7 @@ export default function SnapchatAccounts() {
                     Premium Management
                   </li>
                 </ul>
-                <Link href="/checkout?service=snapchat&quantity=25&tier=standard">
+                <Link href="/?service=snapchat&quantity=25&tier=standard">
                   <button className="w-full bg-yellow-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-yellow-700 transition-colors">
                     Order Now
                   </button>
@@ -335,7 +335,7 @@ export default function SnapchatAccounts() {
                     Friend Network Ready
                   </li>
                 </ul>
-                <Link href="/checkout?service=snapchat&quantity=1&tier=premium">
+                <Link href="/?service=snapchat&quantity=1&tier=premium">
                   <button className="w-full bg-yellow-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-yellow-700 transition-colors">
                     Order Now
                   </button>
@@ -358,7 +358,7 @@ export default function SnapchatAccounts() {
                     Social Proof Included
                   </li>
                 </ul>
-                <Link href="/checkout?service=snapchat&quantity=5&tier=premium">
+                <Link href="/?service=snapchat&quantity=5&tier=premium">
                   <button className="w-full bg-yellow-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-yellow-700 transition-colors">
                     Order Now
                   </button>
@@ -382,7 +382,7 @@ export default function SnapchatAccounts() {
                     VIP Snapchat Support
                   </li>
                 </ul>
-                <Link href="/checkout?service=snapchat&quantity=10&tier=premium">
+                <Link href="/?service=snapchat&quantity=10&tier=premium">
                   <button className="w-full bg-yellow-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-yellow-700 transition-colors">
                     Order Now
                   </button>
@@ -405,7 +405,7 @@ export default function SnapchatAccounts() {
                     Enterprise Snapchat Access
                   </li>
                 </ul>
-                <Link href="/checkout?service=snapchat&quantity=25&tier=premium">
+                <Link href="/?service=snapchat&quantity=25&tier=premium">
                   <button className="w-full bg-yellow-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-yellow-700 transition-colors">
                     Order Now
                   </button>

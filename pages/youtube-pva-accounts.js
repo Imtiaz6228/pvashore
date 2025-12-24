@@ -127,7 +127,7 @@ export default function YouTubePVAAccounts() {
                     Bulk Discount
                   </li>
                 </ul>
-                <Link href="/checkout?service=youtube&quantity=50&tier=fresh">
+                <Link href="/?service=youtube&quantity=50&tier=fresh">
                   <button className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">
                     Order Now
                   </button>
@@ -150,7 +150,7 @@ export default function YouTubePVAAccounts() {
                     Maximum Value
                   </li>
                 </ul>
-                <Link href="/checkout?service=youtube&quantity=100&tier=fresh">
+                <Link href="/?service=youtube&quantity=100&tier=fresh">
                   <button className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">
                     Order Now
                   </button>
@@ -174,7 +174,7 @@ export default function YouTubePVAAccounts() {
                     Best Bulk Price
                   </li>
                 </ul>
-                <Link href="/checkout?service=youtube&quantity=200&tier=fresh">
+                <Link href="/?service=youtube&quantity=200&tier=fresh">
                   <button className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">
                     Order Now
                   </button>
@@ -197,7 +197,7 @@ export default function YouTubePVAAccounts() {
                     Ultimate Bulk Deal
                   </li>
                 </ul>
-                <Link href="/checkout?service=youtube&quantity=500&tier=fresh">
+                <Link href="/?service=youtube&quantity=500&tier=fresh">
                   <button className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">
                     Order Now
                   </button>
@@ -227,7 +227,7 @@ export default function YouTubePVAAccounts() {
                     Established Accounts
                   </li>
                 </ul>
-                <Link href="/checkout?service=youtube&quantity=50&tier=6months">
+                <Link href="/?service=youtube&quantity=50&tier=6months">
                   <button className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">
                     Order Now
                   </button>
@@ -250,7 +250,7 @@ export default function YouTubePVAAccounts() {
                     Bulk Discount
                   </li>
                 </ul>
-                <Link href="/checkout?service=youtube&quantity=100&tier=6months">
+                <Link href="/?service=youtube&quantity=100&tier=6months">
                   <button className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">
                     Order Now
                   </button>
@@ -274,7 +274,7 @@ export default function YouTubePVAAccounts() {
                     Premium Discount
                   </li>
                 </ul>
-                <Link href="/checkout?service=youtube&quantity=200&tier=6months">
+                <Link href="/?service=youtube&quantity=200&tier=6months">
                   <button className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">
                     Order Now
                   </button>
@@ -297,7 +297,7 @@ export default function YouTubePVAAccounts() {
                     Ultimate Bulk Deal
                   </li>
                 </ul>
-                <Link href="/checkout?service=youtube&quantity=500&tier=6months">
+                <Link href="/?service=youtube&quantity=500&tier=6months">
                   <button className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">
                     Order Now
                   </button>

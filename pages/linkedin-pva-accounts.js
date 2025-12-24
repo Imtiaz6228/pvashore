@@ -235,7 +235,7 @@ export default function LinkedInPVAAccounts() {
                     Instant Delivery
                   </li>
                 </ul>
-                <Link href="/checkout?service=linkedin&quantity=1&tier=standard">
+                <Link href="/?service=linkedin&quantity=1&tier=standard">
                   <button className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
                     Order Now
                   </button>
@@ -258,7 +258,7 @@ export default function LinkedInPVAAccounts() {
                     Bulk Discount Applied
                   </li>
                 </ul>
-                <Link href="/checkout?service=linkedin&quantity=5&tier=standard">
+                <Link href="/?service=linkedin&quantity=5&tier=standard">
                   <button className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
                     Order Now
                   </button>
@@ -282,7 +282,7 @@ export default function LinkedInPVAAccounts() {
                     Priority Support
                   </li>
                 </ul>
-                <Link href="/checkout?service=linkedin&quantity=10&tier=standard">
+                <Link href="/?service=linkedin&quantity=10&tier=standard">
                   <button className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
                     Order Now
                   </button>
@@ -305,7 +305,7 @@ export default function LinkedInPVAAccounts() {
                     Dedicated Manager
                   </li>
                 </ul>
-                <Link href="/checkout?service=linkedin&quantity=25&tier=standard">
+                <Link href="/?service=linkedin&quantity=25&tier=standard">
                   <button className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
                     Order Now
                   </button>
@@ -335,7 +335,7 @@ export default function LinkedInPVAAccounts() {
                     Enhanced Profile
                   </li>
                 </ul>
-                <Link href="/checkout?service=linkedin&quantity=1&tier=premium">
+                <Link href="/?service=linkedin&quantity=1&tier=premium">
                   <button className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
                     Order Now
                   </button>
@@ -358,7 +358,7 @@ export default function LinkedInPVAAccounts() {
                     Bulk Premium Savings
                   </li>
                 </ul>
-                <Link href="/checkout?service=linkedin&quantity=5&tier=premium">
+                <Link href="/?service=linkedin&quantity=5&tier=premium">
                   <button className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
                     Order Now
                   </button>
@@ -382,7 +382,7 @@ export default function LinkedInPVAAccounts() {
                     VIP Support
                   </li>
                 </ul>
-                <Link href="/checkout?service=linkedin&quantity=10&tier=premium">
+                <Link href="/?service=linkedin&quantity=10&tier=premium">
                   <button className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
                     Order Now
                   </button>
@@ -405,7 +405,7 @@ export default function LinkedInPVAAccounts() {
                     White-Label Support
                   </li>
                 </ul>
-                <Link href="/checkout?service=linkedin&quantity=25&tier=premium">
+                <Link href="/?service=linkedin&quantity=25&tier=premium">
                   <button className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
                     Order Now
                   </button>

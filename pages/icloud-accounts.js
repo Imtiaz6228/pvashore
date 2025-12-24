@@ -193,7 +193,7 @@ export default function ICloudAccounts() {
                     Bulk Discount
                   </li>
                 </ul>
-                <Link href="/checkout?service=icloud&quantity=50&tier=fresh">
+                <Link href="/?service=icloud&quantity=50&tier=fresh">
                   <button className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
                     Order Now
                   </button>
@@ -216,7 +216,7 @@ export default function ICloudAccounts() {
                     Maximum Value
                   </li>
                 </ul>
-                <Link href="/checkout?service=icloud&quantity=100&tier=fresh">
+                <Link href="/?service=icloud&quantity=100&tier=fresh">
                   <button className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
                     Order Now
                   </button>
@@ -240,7 +240,7 @@ export default function ICloudAccounts() {
                     Best Bulk Price
                   </li>
                 </ul>
-                <Link href="/checkout?service=icloud&quantity=300&tier=fresh">
+                <Link href="/?service=icloud&quantity=300&tier=fresh">
                   <button className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
                     Order Now
                   </button>
@@ -263,7 +263,7 @@ export default function ICloudAccounts() {
                     Ultimate Bulk Deal
                   </li>
                 </ul>
-                <Link href="/checkout?service=icloud&quantity=500&tier=fresh">
+                <Link href="/?service=icloud&quantity=500&tier=fresh">
                   <button className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
                     Order Now
                   </button>
@@ -293,7 +293,7 @@ export default function ICloudAccounts() {
                     Established Accounts
                   </li>
                 </ul>
-                <Link href="/checkout?service=icloud&quantity=50&tier=1month">
+                <Link href="/?service=icloud&quantity=50&tier=1month">
                   <button className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
                     Order Now
                   </button>
@@ -316,7 +316,7 @@ export default function ICloudAccounts() {
                     Bulk Discount
                   </li>
                 </ul>
-                <Link href="/checkout?service=icloud&quantity=100&tier=1month">
+                <Link href="/?service=icloud&quantity=100&tier=1month">
                   <button className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
                     Order Now
                   </button>
@@ -340,7 +340,7 @@ export default function ICloudAccounts() {
                     Premium Discount
                   </li>
                 </ul>
-                <Link href="/checkout?service=icloud&quantity=300&tier=1month">
+                <Link href="/?service=icloud&quantity=300&tier=1month">
                   <button className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
                     Order Now
                   </button>
@@ -363,7 +363,7 @@ export default function ICloudAccounts() {
                     Ultimate Bulk Deal
                   </li>
                 </ul>
-                <Link href="/checkout?service=icloud&quantity=500&tier=1month">
+                <Link href="/?service=icloud&quantity=500&tier=1month">
                   <button className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
                     Order Now
                   </button>

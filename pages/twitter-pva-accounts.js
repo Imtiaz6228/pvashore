@@ -127,7 +127,7 @@ export default function TwitterPVAAccounts() {
                     Bulk Discount
                   </li>
                 </ul>
-                <Link href="/checkout?service=twitter&quantity=50&tier=fresh">
+                <Link href="/?service=twitter&quantity=50&tier=fresh">
                   <button className="w-full bg-sky-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-sky-700 transition-colors">
                     Order Now
                   </button>
@@ -150,7 +150,7 @@ export default function TwitterPVAAccounts() {
                     Maximum Value
                   </li>
                 </ul>
-                <Link href="/checkout?service=twitter&quantity=100&tier=fresh">
+                <Link href="/?service=twitter&quantity=100&tier=fresh">
                   <button className="w-full bg-sky-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-sky-700 transition-colors">
                     Order Now
                   </button>
@@ -174,7 +174,7 @@ export default function TwitterPVAAccounts() {
                     Best Bulk Price
                   </li>
                 </ul>
-                <Link href="/checkout?service=twitter&quantity=220&tier=fresh">
+                <Link href="/?service=twitter&quantity=220&tier=fresh">
                   <button className="w-full bg-sky-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-sky-700 transition-colors">
                     Order Now
                   </button>
@@ -197,7 +197,7 @@ export default function TwitterPVAAccounts() {
                     Ultimate Bulk Deal
                   </li>
                 </ul>
-                <Link href="/checkout?service=twitter&quantity=500&tier=fresh">
+                <Link href="/?service=twitter&quantity=500&tier=fresh">
                   <button className="w-full bg-sky-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-sky-700 transition-colors">
                     Order Now
                   </button>
@@ -227,7 +227,7 @@ export default function TwitterPVAAccounts() {
                     Established Accounts
                   </li>
                 </ul>
-                <Link href="/checkout?service=twitter&quantity=25&tier=1-6months">
+                <Link href="/?service=twitter&quantity=25&tier=1-6months">
                   <button className="w-full bg-sky-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-sky-700 transition-colors">
                     Order Now
                   </button>
@@ -250,7 +250,7 @@ export default function TwitterPVAAccounts() {
                     Bulk Discount
                   </li>
                 </ul>
-                <Link href="/checkout?service=twitter&quantity=50&tier=1-6months">
+                <Link href="/?service=twitter&quantity=50&tier=1-6months">
                   <button className="w-full bg-sky-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-sky-700 transition-colors">
                     Order Now
                   </button>
@@ -274,7 +274,7 @@ export default function TwitterPVAAccounts() {
                     Premium Discount
                   </li>
                 </ul>
-                <Link href="/checkout?service=twitter&quantity=110&tier=1-6months">
+                <Link href="/?service=twitter&quantity=110&tier=1-6months">
                   <button className="w-full bg-sky-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-sky-700 transition-colors">
                     Order Now
                   </button>
@@ -297,7 +297,7 @@ export default function TwitterPVAAccounts() {
                     Ultimate Bulk Deal
                   </li>
                 </ul>
-                <Link href="/checkout?service=twitter&quantity=250&tier=1-6months">
+                <Link href="/?service=twitter&quantity=250&tier=1-6months">
                   <button className="w-full bg-sky-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-sky-700 transition-colors">
                     Order Now
                   </button>
@@ -327,7 +327,7 @@ export default function TwitterPVAAccounts() {
                     Established Trust
                   </li>
                 </ul>
-                <Link href="/checkout?service=twitter&quantity=25&tier=1year">
+                <Link href="/?service=twitter&quantity=25&tier=1year">
                   <button className="w-full bg-sky-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-sky-700 transition-colors">
                     Order Now
                   </button>
@@ -350,7 +350,7 @@ export default function TwitterPVAAccounts() {
                     Bulk Savings
                   </li>
                 </ul>
-                <Link href="/checkout?service=twitter&quantity=50&tier=1year">
+                <Link href="/?service=twitter&quantity=50&tier=1year">
                   <button className="w-full bg-sky-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-sky-700 transition-colors">
                     Order Now
                   </button>
@@ -374,7 +374,7 @@ export default function TwitterPVAAccounts() {
                     Maximum Value
                   </li>
                 </ul>
-                <Link href="/checkout?service=twitter&quantity=110&tier=1year">
+                <Link href="/?service=twitter&quantity=110&tier=1year">
                   <button className="w-full bg-sky-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-sky-700 transition-colors">
                     Order Now
                   </button>
@@ -397,7 +397,7 @@ export default function TwitterPVAAccounts() {
                     Ultimate Discount
                   </li>
                 </ul>
-                <Link href="/checkout?service=twitter&quantity=250&tier=1year">
+                <Link href="/?service=twitter&quantity=250&tier=1year">
                   <button className="w-full bg-sky-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-sky-700 transition-colors">
                     Order Now
                   </button>
@@ -427,7 +427,7 @@ export default function TwitterPVAAccounts() {
                     Maximum Trust
                   </li>
                 </ul>
-                <Link href="/checkout?service=twitter&quantity=25&tier=2years">
+                <Link href="/?service=twitter&quantity=25&tier=2years">
                   <button className="w-full bg-sky-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-sky-700 transition-colors">
                     Order Now
                   </button>
@@ -450,7 +450,7 @@ export default function TwitterPVAAccounts() {
                     Elite Discount
                   </li>
                 </ul>
-                <Link href="/checkout?service=twitter&quantity=50&tier=2years">
+                <Link href="/?service=twitter&quantity=50&tier=2years">
                   <button className="w-full bg-sky-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-sky-700 transition-colors">
                     Order Now
                   </button>
@@ -474,7 +474,7 @@ export default function TwitterPVAAccounts() {
                     Best Value
                   </li>
                 </ul>
-                <Link href="/checkout?service=twitter&quantity=110&tier=2years">
+                <Link href="/?service=twitter&quantity=110&tier=2years">
                   <button className="w-full bg-sky-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-sky-700 transition-colors">
                     Order Now
                   </button>
@@ -497,7 +497,7 @@ export default function TwitterPVAAccounts() {
                     Ultimate Bulk Deal
                   </li>
                 </ul>
-                <Link href="/checkout?service=twitter&quantity=250&tier=2years">
+                <Link href="/?service=twitter&quantity=250&tier=2years">
                   <button className="w-full bg-sky-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-sky-700 transition-colors">
                     Order Now
                   </button>

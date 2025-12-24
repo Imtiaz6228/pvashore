@@ -127,7 +127,7 @@ export default function GmailPVAAccounts() {
                     Bulk Discount
                   </li>
                 </ul>
-                <Link href="/checkout?service=gmail&quantity=100&tier=fresh">
+                <Link href="/?service=gmail&quantity=100&tier=fresh">
                   <button className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">
                     Order Now
                   </button>
@@ -150,7 +150,7 @@ export default function GmailPVAAccounts() {
                     Maximum Value
                   </li>
                 </ul>
-                <Link href="/checkout?service=gmail&quantity=250&tier=fresh">
+                <Link href="/?service=gmail&quantity=250&tier=fresh">
                   <button className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">
                     Order Now
                   </button>
@@ -174,7 +174,7 @@ export default function GmailPVAAccounts() {
                     Best Bulk Price
                   </li>
                 </ul>
-                <Link href="/checkout?service=gmail&quantity=500&tier=fresh">
+                <Link href="/?service=gmail&quantity=500&tier=fresh">
                   <button className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">
                     Order Now
                   </button>
@@ -197,7 +197,7 @@ export default function GmailPVAAccounts() {
                     Ultimate Bulk Deal
                   </li>
                 </ul>
-                <Link href="/checkout?service=gmail&quantity=1000&tier=fresh">
+                <Link href="/?service=gmail&quantity=1000&tier=fresh">
                   <button className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">
                     Order Now
                   </button>
@@ -227,7 +227,7 @@ export default function GmailPVAAccounts() {
                     Established Accounts
                   </li>
                 </ul>
-                <Link href="/checkout?service=gmail&quantity=25&tier=1-6months">
+                <Link href="/?service=gmail&quantity=25&tier=1-6months">
                   <button className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">
                     Order Now
                   </button>
@@ -250,7 +250,7 @@ export default function GmailPVAAccounts() {
                     Bulk Discount
                   </li>
                 </ul>
-                <Link href="/checkout?service=gmail&quantity=50&tier=1-6months">
+                <Link href="/?service=gmail&quantity=50&tier=1-6months">
                   <button className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">
                     Order Now
                   </button>
@@ -274,7 +274,7 @@ export default function GmailPVAAccounts() {
                     Premium Discount
                   </li>
                 </ul>
-                <Link href="/checkout?service=gmail&quantity=100&tier=1-6months">
+                <Link href="/?service=gmail&quantity=100&tier=1-6months">
                   <button className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">
                     Order Now
                   </button>
@@ -297,7 +297,7 @@ export default function GmailPVAAccounts() {
                     Ultimate Bulk Deal
                   </li>
                 </ul>
-                <Link href="/checkout?service=gmail&quantity=250&tier=1-6months">
+                <Link href="/?service=gmail&quantity=250&tier=1-6months">
                   <button className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">
                     Order Now
                   </button>
@@ -327,7 +327,7 @@ export default function GmailPVAAccounts() {
                     Established Trust
                   </li>
                 </ul>
-                <Link href="/checkout?service=gmail&quantity=10&tier=1year">
+                <Link href="/?service=gmail&quantity=10&tier=1year">
                   <button className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">
                     Order Now
                   </button>
@@ -350,7 +350,7 @@ export default function GmailPVAAccounts() {
                     Bulk Savings
                   </li>
                 </ul>
-                <Link href="/checkout?service=gmail&quantity=30&tier=1year">
+                <Link href="/?service=gmail&quantity=30&tier=1year">
                   <button className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">
                     Order Now
                   </button>
@@ -374,7 +374,7 @@ export default function GmailPVAAccounts() {
                     Maximum Value
                   </li>
                 </ul>
-                <Link href="/checkout?service=gmail&quantity=100&tier=1year">
+                <Link href="/?service=gmail&quantity=100&tier=1year">
                   <button className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">
                     Order Now
                   </button>
@@ -397,7 +397,7 @@ export default function GmailPVAAccounts() {
                     Ultimate Bulk Deal
                   </li>
                 </ul>
-                <Link href="/checkout?service=gmail&quantity=250&tier=1year">
+                <Link href="/?service=gmail&quantity=250&tier=1year">
                   <button className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">
                     Order Now
                   </button>
@@ -427,7 +427,7 @@ export default function GmailPVAAccounts() {
                     Maximum Trust
                   </li>
                 </ul>
-                <Link href="/checkout?service=gmail&quantity=5&tier=2-3years">
+                <Link href="/?service=gmail&quantity=5&tier=2-3years">
                   <button className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">
                     Order Now
                   </button>
@@ -450,7 +450,7 @@ export default function GmailPVAAccounts() {
                     Elite Discount
                   </li>
                 </ul>
-                <Link href="/checkout?service=gmail&quantity=20&tier=2-3years">
+                <Link href="/?service=gmail&quantity=20&tier=2-3years">
                   <button className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">
                     Order Now
                   </button>
@@ -474,7 +474,7 @@ export default function GmailPVAAccounts() {
                     Best Value
                   </li>
                 </ul>
-                <Link href="/checkout?service=gmail&quantity=50&tier=2-3years">
+                <Link href="/?service=gmail&quantity=50&tier=2-3years">
                   <button className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">
                     Order Now
                   </button>
@@ -497,7 +497,7 @@ export default function GmailPVAAccounts() {
                     Ultimate Bulk Deal
                   </li>
                 </ul>
-                <Link href="/checkout?service=gmail&quantity=100&tier=2-3years">
+                <Link href="/?service=gmail&quantity=100&tier=2-3years">
                   <button className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">
                     Order Now
                   </button>
@@ -527,7 +527,7 @@ export default function GmailPVAAccounts() {
                     Maximum Authority
                   </li>
                 </ul>
-                <Link href="/checkout?service=gmail&quantity=5&tier=5-10years">
+                <Link href="/?service=gmail&quantity=5&tier=5-10years">
                   <button className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">
                     Order Now
                   </button>
@@ -550,7 +550,7 @@ export default function GmailPVAAccounts() {
                     Ultimate Trust
                   </li>
                 </ul>
-                <Link href="/checkout?service=gmail&quantity=15&tier=5-10years">
+                <Link href="/?service=gmail&quantity=15&tier=5-10years">
                   <button className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">
                     Order Now
                   </button>
@@ -574,7 +574,7 @@ export default function GmailPVAAccounts() {
                     Premium Authority
                   </li>
                 </ul>
-                <Link href="/checkout?service=gmail&quantity=40&tier=5-10years">
+                <Link href="/?service=gmail&quantity=40&tier=5-10years">
                   <button className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">
                     Order Now
                   </button>
@@ -597,7 +597,7 @@ export default function GmailPVAAccounts() {
                     Ultimate Authority
                   </li>
                 </ul>
-                <Link href="/checkout?service=gmail&quantity=70&tier=5-10years">
+                <Link href="/?service=gmail&quantity=70&tier=5-10years">
                   <button className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">
                     Order Now
                   </button>

@@ -235,7 +235,7 @@ export default function YahooPVAAccounts() {
                     Instant Delivery
                   </li>
                 </ul>
-                <Link href="/checkout?service=yahoo&quantity=1&tier=standard">
+                <Link href="/?service=yahoo&quantity=1&tier=standard">
                   <button className="w-full bg-purple-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-purple-700 transition-colors">
                     Order Now
                   </button>
@@ -258,7 +258,7 @@ export default function YahooPVAAccounts() {
                     Priority Setup
                   </li>
                 </ul>
-                <Link href="/checkout?service=yahoo&quantity=5&tier=standard">
+                <Link href="/?service=yahoo&quantity=5&tier=standard">
                   <button className="w-full bg-purple-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-purple-700 transition-colors">
                     Order Now
                   </button>
@@ -282,7 +282,7 @@ export default function YahooPVAAccounts() {
                     Dedicated Support
                   </li>
                 </ul>
-                <Link href="/checkout?service=yahoo&quantity=10&tier=standard">
+                <Link href="/?service=yahoo&quantity=10&tier=standard">
                   <button className="w-full bg-purple-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-purple-700 transition-colors">
                     Order Now
                   </button>
@@ -305,7 +305,7 @@ export default function YahooPVAAccounts() {
                     Premium Management
                   </li>
                 </ul>
-                <Link href="/checkout?service=yahoo&quantity=25&tier=standard">
+                <Link href="/?service=yahoo&quantity=25&tier=standard">
                   <button className="w-full bg-purple-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-purple-700 transition-colors">
                     Order Now
                   </button>
@@ -335,7 +335,7 @@ export default function YahooPVAAccounts() {
                     Priority Support
                   </li>
                 </ul>
-                <Link href="/checkout?service=yahoo&quantity=1&tier=premium">
+                <Link href="/?service=yahoo&quantity=1&tier=premium">
                   <button className="w-full bg-purple-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-purple-700 transition-colors">
                     Order Now
                   </button>
@@ -358,7 +358,7 @@ export default function YahooPVAAccounts() {
                     Business Integration
                   </li>
                 </ul>
-                <Link href="/checkout?service=yahoo&quantity=5&tier=premium">
+                <Link href="/?service=yahoo&quantity=5&tier=premium">
                   <button className="w-full bg-purple-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-purple-700 transition-colors">
                     Order Now
                   </button>
@@ -382,7 +382,7 @@ export default function YahooPVAAccounts() {
                     VIP Yahoo Support
                   </li>
                 </ul>
-                <Link href="/checkout?service=yahoo&quantity=10&tier=premium">
+                <Link href="/?service=yahoo&quantity=10&tier=premium">
                   <button className="w-full bg-purple-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-purple-700 transition-colors">
                     Order Now
                   </button>
@@ -405,7 +405,7 @@ export default function YahooPVAAccounts() {
                     Enterprise Yahoo Access
                   </li>
                 </ul>
-                <Link href="/checkout?service=yahoo&quantity=25&tier=premium">
+                <Link href="/?service=yahoo&quantity=25&tier=premium">
                   <button className="w-full bg-purple-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-purple-700 transition-colors">
                     Order Now
                   </button>

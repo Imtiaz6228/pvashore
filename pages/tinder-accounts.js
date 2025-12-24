@@ -98,7 +98,7 @@ export default function TinderAccounts() {
                     Instant Delivery
                   </li>
                 </ul>
-                <Link href="/checkout?service=tinder&quantity=1&tier=standard">
+                <Link href="/?service=tinder&quantity=1&tier=standard">
                   <button className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
                     Order Now
                   </button>
@@ -121,7 +121,7 @@ export default function TinderAccounts() {
                     Priority Setup
                   </li>
                 </ul>
-                <Link href="/checkout?service=tinder&quantity=5&tier=standard">
+                <Link href="/?service=tinder&quantity=5&tier=standard">
                   <button className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
                     Order Now
                   </button>
@@ -145,7 +145,7 @@ export default function TinderAccounts() {
                     Dedicated Support
                   </li>
                 </ul>
-                <Link href="/checkout?service=tinder&quantity=10&tier=standard">
+                <Link href="/?service=tinder&quantity=10&tier=standard">
                   <button className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
                     Order Now
                   </button>
@@ -168,7 +168,7 @@ export default function TinderAccounts() {
                     Premium Management
                   </li>
                 </ul>
-                <Link href="/checkout?service=tinder&quantity=25&tier=standard">
+                <Link href="/?service=tinder&quantity=25&tier=standard">
                   <button className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
                     Order Now
                   </button>
@@ -198,7 +198,7 @@ export default function TinderAccounts() {
                     Profile Optimization
                   </li>
                 </ul>
-                <Link href="/checkout?service=tinder&quantity=1&tier=premium">
+                <Link href="/?service=tinder&quantity=1&tier=premium">
                   <button className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
                     Order Now
                   </button>
@@ -221,7 +221,7 @@ export default function TinderAccounts() {
                     Social Proof Included
                   </li>
                 </ul>
-                <Link href="/checkout?service=tinder&quantity=5&tier=premium">
+                <Link href="/?service=tinder&quantity=5&tier=premium">
                   <button className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
                     Order Now
                   </button>
@@ -245,7 +245,7 @@ export default function TinderAccounts() {
                     VIP Tinder Support
                   </li>
                 </ul>
-                <Link href="/checkout?service=tinder&quantity=10&tier=premium">
+                <Link href="/?service=tinder&quantity=10&tier=premium">
                   <button className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
                     Order Now
                   </button>
@@ -268,7 +268,7 @@ export default function TinderAccounts() {
                     Enterprise Tinder Access
                   </li>
                 </ul>
-                <Link href="/checkout?service=tinder&quantity=25&tier=premium">
+                <Link href="/?service=tinder&quantity=25&tier=premium">
                   <button className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
                     Order Now
                   </button>

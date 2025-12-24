@@ -235,7 +235,7 @@ export default function WeChatPVAAccounts() {
                     Instant Delivery
                   </li>
                 </ul>
-                <Link href="/checkout?service=wechat&quantity=1&tier=standard">
+                <Link href="/?service=wechat&quantity=1&tier=standard">
                   <button className="w-full bg-green-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-green-700 transition-colors">
                     Order Now
                   </button>
@@ -258,7 +258,7 @@ export default function WeChatPVAAccounts() {
                     Priority Setup
                   </li>
                 </ul>
-                <Link href="/checkout?service=wechat&quantity=5&tier=standard">
+                <Link href="/?service=wechat&quantity=5&tier=standard">
                   <button className="w-full bg-green-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-green-700 transition-colors">
                     Order Now
                   </button>
@@ -282,7 +282,7 @@ export default function WeChatPVAAccounts() {
                     Dedicated Support
                   </li>
                 </ul>
-                <Link href="/checkout?service=wechat&quantity=10&tier=standard">
+                <Link href="/?service=wechat&quantity=10&tier=standard">
                   <button className="w-full bg-green-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-green-700 transition-colors">
                     Order Now
                   </button>
@@ -305,7 +305,7 @@ export default function WeChatPVAAccounts() {
                     Premium Management
                   </li>
                 </ul>
-                <Link href="/checkout?service=wechat&quantity=25&tier=standard">
+                <Link href="/?service=wechat&quantity=25&tier=standard">
                   <button className="w-full bg-green-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-green-700 transition-colors">
                     Order Now
                   </button>
@@ -335,7 +335,7 @@ export default function WeChatPVAAccounts() {
                     Mini Program Access
                   </li>
                 </ul>
-                <Link href="/checkout?service=wechat&quantity=1&tier=premium">
+                <Link href="/?service=wechat&quantity=1&tier=premium">
                   <button className="w-full bg-green-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-green-700 transition-colors">
                     Order Now
                   </button>
@@ -358,7 +358,7 @@ export default function WeChatPVAAccounts() {
                     Business Integration
                   </li>
                 </ul>
-                <Link href="/checkout?service=wechat&quantity=5&tier=premium">
+                <Link href="/?service=wechat&quantity=5&tier=premium">
                   <button className="w-full bg-green-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-green-700 transition-colors">
                     Order Now
                   </button>
@@ -382,7 +382,7 @@ export default function WeChatPVAAccounts() {
                     VIP China Support
                   </li>
                 </ul>
-                <Link href="/checkout?service=wechat&quantity=10&tier=premium">
+                <Link href="/?service=wechat&quantity=10&tier=premium">
                   <button className="w-full bg-green-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-green-700 transition-colors">
                     Order Now
                   </button>
@@ -405,7 +405,7 @@ export default function WeChatPVAAccounts() {
                     Enterprise China Access
                   </li>
                 </ul>
-                <Link href="/checkout?service=wechat&quantity=25&tier=premium">
+                <Link href="/?service=wechat&quantity=25&tier=premium">
                   <button className="w-full bg-green-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-green-700 transition-colors">
                     Order Now
                   </button>

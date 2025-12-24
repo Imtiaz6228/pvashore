@@ -127,7 +127,7 @@ export default function ThreadsPVAAccounts() {
                     Bulk Discount
                   </li>
                 </ul>
-                <Link href="/checkout?service=threads&quantity=100&tier=fresh">
+                <Link href="/?service=threads&quantity=100&tier=fresh">
                   <button className="w-full bg-gray-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-gray-700 transition-colors">
                     Order Now
                   </button>
@@ -150,7 +150,7 @@ export default function ThreadsPVAAccounts() {
                     Maximum Value
                   </li>
                 </ul>
-                <Link href="/checkout?service=threads&quantity=200&tier=fresh">
+                <Link href="/?service=threads&quantity=200&tier=fresh">
                   <button className="w-full bg-gray-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-gray-700 transition-colors">
                     Order Now
                   </button>
@@ -174,7 +174,7 @@ export default function ThreadsPVAAccounts() {
                     Best Bulk Price
                   </li>
                 </ul>
-                <Link href="/checkout?service=threads&quantity=600&tier=fresh">
+                <Link href="/?service=threads&quantity=600&tier=fresh">
                   <button className="w-full bg-gray-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-gray-700 transition-colors">
                     Order Now
                   </button>
@@ -197,7 +197,7 @@ export default function ThreadsPVAAccounts() {
                     Ultimate Bulk Deal
                   </li>
                 </ul>
-                <Link href="/checkout?service=threads&quantity=1000&tier=fresh">
+                <Link href="/?service=threads&quantity=1000&tier=fresh">
                   <button className="w-full bg-gray-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-gray-700 transition-colors">
                     Order Now
                   </button>
@@ -227,7 +227,7 @@ export default function ThreadsPVAAccounts() {
                     Established Accounts
                   </li>
                 </ul>
-                <Link href="/checkout?service=threads&quantity=100&tier=1month">
+                <Link href="/?service=threads&quantity=100&tier=1month">
                   <button className="w-full bg-gray-900 text-white py-2 px-4 rounded-lg font-semibold hover:bg-gray-800 transition-colors">
                     Order Now
                   </button>
@@ -250,7 +250,7 @@ export default function ThreadsPVAAccounts() {
                     Bulk Discount
                   </li>
                 </ul>
-                <Link href="/checkout?service=threads&quantity=200&tier=1month">
+                <Link href="/?service=threads&quantity=200&tier=1month">
                   <button className="w-full bg-gray-900 text-white py-2 px-4 rounded-lg font-semibold hover:bg-gray-800 transition-colors">
                     Order Now
                   </button>
@@ -274,7 +274,7 @@ export default function ThreadsPVAAccounts() {
                     Premium Discount
                   </li>
                 </ul>
-                <Link href="/checkout?service=threads&quantity=600&tier=1month">
+                <Link href="/?service=threads&quantity=600&tier=1month">
                   <button className="w-full bg-gray-900 text-white py-2 px-4 rounded-lg font-semibold hover:bg-gray-800 transition-colors">
                     Order Now
                   </button>
@@ -297,7 +297,7 @@ export default function ThreadsPVAAccounts() {
                     Ultimate Bulk Deal
                   </li>
                 </ul>
-                <Link href="/checkout?service=threads&quantity=1000&tier=1month">
+                <Link href="/?service=threads&quantity=1000&tier=1month">
                   <button className="w-full bg-gray-900 text-white py-2 px-4 rounded-lg font-semibold hover:bg-gray-800 transition-colors">
                     Order Now
                   </button>

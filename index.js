@@ -82,7 +82,7 @@ app.get('/order-now', (req, res) => {
 });
 
 // Checkout Page
-app.get('/checkout', (req, res) => {
+app.get('/', (req, res) => {
     const product = req.query.product || '';
     res.render('checkout', { product });
 });

@@ -195,7 +195,7 @@ export default function TelegramPVAAccounts() {
                     Instant Delivery
                   </li>
                 </ul>
-                <Link href="/checkout?service=telegram&quantity=1&tier=standard">
+                <Link href="/?service=telegram&quantity=1&tier=standard">
                   <button className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
                     Order Now
                   </button>
@@ -218,7 +218,7 @@ export default function TelegramPVAAccounts() {
                     24/7 Support
                   </li>
                 </ul>
-                <Link href="/checkout?service=telegram&quantity=5&tier=standard">
+                <Link href="/?service=telegram&quantity=5&tier=standard">
                   <button className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
                     Order Now
                   </button>
@@ -242,7 +242,7 @@ export default function TelegramPVAAccounts() {
                     Priority Delivery
                   </li>
                 </ul>
-                <Link href="/checkout?service=telegram&quantity=10&tier=standard">
+                <Link href="/?service=telegram&quantity=10&tier=standard">
                   <button className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
                     Order Now
                   </button>
@@ -265,7 +265,7 @@ export default function TelegramPVAAccounts() {
                     Dedicated Support
                   </li>
                 </ul>
-                <Link href="/checkout?service=telegram&quantity=25&tier=standard">
+                <Link href="/?service=telegram&quantity=25&tier=standard">
                   <button className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
                     Order Now
                   </button>
@@ -295,7 +295,7 @@ export default function TelegramPVAAccounts() {
                     Priority Support
                   </li>
                 </ul>
-                <Link href="/checkout?service=telegram&quantity=1&tier=premium">
+                <Link href="/?service=telegram&quantity=1&tier=premium">
                   <button className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
                     Order Now
                   </button>
@@ -318,7 +318,7 @@ export default function TelegramPVAAccounts() {
                     Bulk Premium Discount
                   </li>
                 </ul>
-                <Link href="/checkout?service=telegram&quantity=5&tier=premium">
+                <Link href="/?service=telegram&quantity=5&tier=premium">
                   <button className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
                     Order Now
                   </button>
@@ -342,7 +342,7 @@ export default function TelegramPVAAccounts() {
                     VIP Support
                   </li>
                 </ul>
-                <Link href="/checkout?service=telegram&quantity=10&tier=premium">
+                <Link href="/?service=telegram&quantity=10&tier=premium">
                   <button className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
                     Order Now
                   </button>
@@ -365,7 +365,7 @@ export default function TelegramPVAAccounts() {
                     Enterprise Solution
                   </li>
                 </ul>
-                <Link href="/checkout?service=telegram&quantity=25&tier=premium">
+                <Link href="/?service=telegram&quantity=25&tier=premium">
                   <button className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
                     Order Now
                   </button>
