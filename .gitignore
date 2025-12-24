@@ -10,6 +10,7 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
+!.env.example
 
 # Logs
 logs
@@ -31,20 +32,19 @@ coverage/
 # nyc test coverage
 .nyc_output
 
-# Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
+# Grunt intermediate storage
 .grunt
 
-# Bower dependency directory (https://bower.io/)
+# Bower dependency directory
 bower_components
 
 # node-waf configuration
 .lock-wscript
 
-# Compiled binary addons (https://nodejs.org/api/addons.html)
+# Compiled binary addons
 build/Release
 
 # Dependency directories
-node_modules/
 jspm_packages/
 
 # TypeScript v1 declaration files
@@ -68,11 +68,7 @@ typings/
 # Yarn Integrity file
 .yarn-integrity
 
-# Environment variables
-.env
-.env.test
-
-# parcel-bundler cache (https://parceljs.org/)
+# Parcel cache
 .cache
 .parcel-cache
 
@@ -84,12 +80,9 @@ typings/
 dist
 
 # Gatsby files
-.cache/
 public
-
-# Storybook build outputs
-.out
 .storybook-out
+.out
 
 # Temporary folders
 tmp/
@@ -121,7 +114,3 @@ Thumbs.db
 # Upload directories
 uploads/
 images/
-
-# Temporary files
-tmp/
-temp/
