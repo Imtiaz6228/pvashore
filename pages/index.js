@@ -1,9 +1,40 @@
 import Head from 'next/head'
-import { ShieldCheck, Zap, CheckCircle, Clock, Star, MessageCircle, Mail, Camera, Users, Play, Phone, ThumbsUp, Bird, Lock, Instagram, Facebook, Twitter, Youtube, Globe, Smartphone, Linkedin, Github, Briefcase, Pin, Apple, MessageSquare, Flame, Heart } from 'lucide-react'
 import Link from 'next/link'
 import Image from 'next/image'
-// import { motion } from 'framer-motion'
 import Navbar from '../components/Navbar'
+import ContactPopup from '../components/ContactPopup' // if used on this page
+
+import {
+  Apple,
+  Linkedin,
+  Heart,
+  Pin,
+  Smartphone,
+  ShieldCheck,
+  Zap,
+  CheckCircle,
+  Clock,
+  Star,
+  MessageCircle,
+  MessageSquare,
+  Mail,
+  Camera,
+  Users,
+  Play,
+  Phone,
+  ThumbsUp,
+  Bird,
+  Lock,
+  Instagram,
+  Facebook,
+  Twitter,
+  Youtube,
+  Globe
+} from 'lucide-react'
+
+
+
+
 
 export default function Home() {
 

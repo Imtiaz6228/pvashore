@@ -3,12 +3,14 @@ import Navbar from '../components/Navbar'
 import ContactPopup from '../components/ContactPopup'
 import { ShieldCheck, CheckCircle, Clock, Star, Zap, MessageCircle, Mail } from 'lucide-react'
 import { useState } from 'react'
+import Link from 'next/link'   // <-- Add this
 
 export default function GmailPVAAccounts() {
   const pageTitle = "Buy Gmail PVA Accounts - Phone Verified Gmail Accounts | PVAshore"
-  const pageDescription = "Buy Gmail PVA Accounts with phone verification. Get fresh and aged phone verified Gmail accounts for email marketing. 100% verified, instant delivery, bulk discounts available."
+  const pageDescription = "Buy Gmail PVA Accounts with phone verification. Get fresh and aged phone verified Gmail accounts for email marketing. 100% verified, instant delivery."
   const pageUrl = "https://yourwebsite.com/gmail-pva-accounts"
   const pageImage = "https://yourwebsite.com/images/gmail-pva-accounts.jpg"
+
 
   const schemaData = {
     "@context": "https://schema.org",
