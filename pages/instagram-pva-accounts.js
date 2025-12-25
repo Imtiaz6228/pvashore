@@ -1,9 +1,21 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import { useState } from 'react'
 import Navbar from '../components/Navbar'
+import ContactPopup from '../components/ContactPopup'
 import { ShieldCheck, CheckCircle, Clock, Star, Zap, MessageCircle } from 'lucide-react'
 
 export default function InstagramPVAAccounts() {
+  const [contactPopup, setContactPopup] = useState({ isOpen: false, service: '', quantity: '', tier: '' })
+
+  const handleOrderClick = (service, quantity, tier) => {
+    setContactPopup({ isOpen: true, service, quantity, tier })
+  }
+
+  const closePopup = () => {
+    setContactPopup({ isOpen: false, service: '', quantity: '', tier: '' })
+  }
+
   const pageTitle = "Buy Instagram PVA Accounts - Phone Verified Instagram Accounts | PVAshore"
   const pageDescription = "Buy Instagram PVA Accounts with phone verification. Get fresh and aged phone verified Instagram accounts for social media marketing. 100% verified, instant delivery, bulk discounts available."
   const pageUrl = "https://yourwebsite.com/instagram-pva-accounts"
@@ -126,11 +138,12 @@ export default function InstagramPVAAccounts() {
                     Bulk Discount
                   </li>
                 </ul>
-                <Link href="/?service=instagram&quantity=100&tier=fresh">
-                  <button className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button
+                  onClick={() => handleOrderClick('Instagram', '100', 'fresh')}
+                  className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors"
+                >
+                  Order Now
+                </button>
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <h4 className="text-xl font-bold mb-4">200 Accounts</h4>
@@ -149,11 +162,12 @@ export default function InstagramPVAAccounts() {
                     Maximum Value
                   </li>
                 </ul>
-                <Link href="/?service=instagram&quantity=200&tier=fresh">
-                  <button className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button
+                  onClick={() => handleOrderClick('Instagram', '200', 'fresh')}
+                  className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors"
+                >
+                  Order Now
+                </button>
               </div>
               <div className="bg-pink-50 border-2 border-pink-200 rounded-lg p-6 shadow-lg relative">
                 <div className="absolute top-4 right-4 bg-pink-500 text-white px-2 py-1 rounded text-xs font-bold">Popular</div>
@@ -173,11 +187,12 @@ export default function InstagramPVAAccounts() {
                     Best Bulk Price
                   </li>
                 </ul>
-                <Link href="/?service=instagram&quantity=500&tier=fresh">
-                  <button className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button
+                  onClick={() => handleOrderClick('Instagram', '500', 'fresh')}
+                  className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors"
+                >
+                  Order Now
+                </button>
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <h4 className="text-xl font-bold mb-4">1000 Accounts</h4>
@@ -196,11 +211,12 @@ export default function InstagramPVAAccounts() {
                     Ultimate Bulk Deal
                   </li>
                 </ul>
-                <Link href="/?service=instagram&quantity=1000&tier=fresh">
-                  <button className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button
+                  onClick={() => handleOrderClick('Instagram', '1000', 'fresh')}
+                  className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors"
+                >
+                  Order Now
+                </button>
               </div>
             </div>
           </div>
@@ -226,11 +242,12 @@ export default function InstagramPVAAccounts() {
                     Established Accounts
                   </li>
                 </ul>
-                <Link href="/?service=instagram&quantity=10&tier=1-6months">
-                  <button className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button
+                  onClick={() => handleOrderClick('Instagram', '10', '1-6months')}
+                  className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors"
+                >
+                  Order Now
+                </button>
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <h4 className="text-xl font-bold mb-4">50 Accounts</h4>
@@ -249,11 +266,12 @@ export default function InstagramPVAAccounts() {
                     Bulk Discount
                   </li>
                 </ul>
-                <Link href="/?service=instagram&quantity=50&tier=1-6months">
-                  <button className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button
+                  onClick={() => handleOrderClick('Instagram', '50', '1-6months')}
+                  className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors"
+                >
+                  Order Now
+                </button>
               </div>
               <div className="bg-pink-50 border-2 border-pink-200 rounded-lg p-6 shadow-lg relative">
                 <div className="absolute top-4 right-4 bg-pink-500 text-white px-2 py-1 rounded text-xs font-bold">Popular</div>
@@ -273,11 +291,12 @@ export default function InstagramPVAAccounts() {
                     Premium Discount
                   </li>
                 </ul>
-                <Link href="/?service=instagram&quantity=100&tier=1-6months">
-                  <button className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button
+                  onClick={() => handleOrderClick('Instagram', '100', '1-6months')}
+                  className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors"
+                >
+                  Order Now
+                </button>
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <h4 className="text-xl font-bold mb-4">600 Accounts</h4>
@@ -296,11 +315,12 @@ export default function InstagramPVAAccounts() {
                     Ultimate Bulk Deal
                   </li>
                 </ul>
-                <Link href="/?service=instagram&quantity=600&tier=1-6months">
-                  <button className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button
+                  onClick={() => handleOrderClick('Instagram', '600', '1-6months')}
+                  className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors"
+                >
+                  Order Now
+                </button>
               </div>
             </div>
           </div>
@@ -326,11 +346,12 @@ export default function InstagramPVAAccounts() {
                     Established Trust
                   </li>
                 </ul>
-                <Link href="/?service=instagram&quantity=5&tier=1year">
-                  <button className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button
+                  onClick={() => handleOrderClick('Instagram', '5', '1year')}
+                  className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors"
+                >
+                  Order Now
+                </button>
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <h4 className="text-xl font-bold mb-4">25 Accounts</h4>
@@ -349,11 +370,12 @@ export default function InstagramPVAAccounts() {
                     Bulk Savings
                   </li>
                 </ul>
-                <Link href="/?service=instagram&quantity=25&tier=1year">
-                  <button className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button
+                  onClick={() => handleOrderClick('Instagram', '25', '1year')}
+                  className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors"
+                >
+                  Order Now
+                </button>
               </div>
               <div className="bg-pink-50 border-2 border-pink-200 rounded-lg p-6 shadow-lg relative">
                 <div className="absolute top-4 right-4 bg-pink-500 text-white px-2 py-1 rounded text-xs font-bold">Popular</div>
@@ -373,11 +395,12 @@ export default function InstagramPVAAccounts() {
                     Maximum Value
                   </li>
                 </ul>
-                <Link href="/?service=instagram&quantity=60&tier=1year">
-                  <button className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button
+                  onClick={() => handleOrderClick('Instagram', '60', '1year')}
+                  className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors"
+                >
+                  Order Now
+                </button>
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <h4 className="text-xl font-bold mb-4">100 Accounts</h4>
@@ -396,11 +419,12 @@ export default function InstagramPVAAccounts() {
                     Ultimate Discount
                   </li>
                 </ul>
-                <Link href="/?service=instagram&quantity=100&tier=1year">
-                  <button className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button
+                  onClick={() => handleOrderClick('Instagram', '100', '1year')}
+                  className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors"
+                >
+                  Order Now
+                </button>
               </div>
             </div>
           </div>
@@ -426,11 +450,12 @@ export default function InstagramPVAAccounts() {
                     Maximum Trust
                   </li>
                 </ul>
-                <Link href="/?service=instagram&quantity=5&tier=2years">
-                  <button className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button
+                  onClick={() => handleOrderClick('Instagram', '5', '2years')}
+                  className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors"
+                >
+                  Order Now
+                </button>
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <h4 className="text-xl font-bold mb-4">15 Accounts</h4>
@@ -449,11 +474,12 @@ export default function InstagramPVAAccounts() {
                     Elite Discount
                   </li>
                 </ul>
-                <Link href="/?service=instagram&quantity=15&tier=2years">
-                  <button className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button
+                  onClick={() => handleOrderClick('Instagram', '15', '2years')}
+                  className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors"
+                >
+                  Order Now
+                </button>
               </div>
               <div className="bg-pink-50 border-2 border-pink-200 rounded-lg p-6 shadow-lg relative">
                 <div className="absolute top-4 right-4 bg-pink-500 text-white px-2 py-1 rounded text-xs font-bold">Popular</div>
@@ -473,11 +499,12 @@ export default function InstagramPVAAccounts() {
                     Best Value
                   </li>
                 </ul>
-                <Link href="/?service=instagram&quantity=40&tier=2years">
-                  <button className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button
+                  onClick={() => handleOrderClick('Instagram', '40', '2years')}
+                  className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors"
+                >
+                  Order Now
+                </button>
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <h4 className="text-xl font-bold mb-4">90 Accounts</h4>
@@ -496,11 +523,12 @@ export default function InstagramPVAAccounts() {
                     Ultimate Bulk Deal
                   </li>
                 </ul>
-                <Link href="/?service=instagram&quantity=90&tier=2years">
-                  <button className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button
+                  onClick={() => handleOrderClick('Instagram', '90', '2years')}
+                  className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors"
+                >
+                  Order Now
+                </button>
               </div>
             </div>
           </div>
@@ -517,6 +545,14 @@ export default function InstagramPVAAccounts() {
           </button>
         </div>
       </section>
+
+      <ContactPopup
+        isOpen={contactPopup.isOpen}
+        onClose={closePopup}
+        service={contactPopup.service}
+        quantity={contactPopup.quantity}
+        tier={contactPopup.tier}
+      />
       </div>
     </>
   )
