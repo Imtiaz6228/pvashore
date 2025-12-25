@@ -6,8 +6,7 @@ import Image from 'next/image'
 import Navbar from '../components/Navbar'
 
 export default function Home() {
-<<<<<<< HEAD
-=======
+
   const services = [
     {
       icon: Mail,
@@ -130,7 +129,6 @@ export default function Home() {
     }
   ]
 
->>>>>>> 5a4dfc3 (Update code)
   return (
     <>
       <Head>
