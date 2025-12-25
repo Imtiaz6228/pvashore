@@ -235,11 +235,7 @@ export default function WeChatPVAAccounts() {
                     Instant Delivery
                   </li>
                 </ul>
-                <Link href="/?service=wechat&quantity=1&tier=standard">
-                  <button className="w-full bg-green-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-green-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('wechat', '1', 'standard')} className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">Order Now</button>
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <h4 className="text-xl font-bold mb-4">5 Accounts</h4>
@@ -258,11 +254,7 @@ export default function WeChatPVAAccounts() {
                     Priority Setup
                   </li>
                 </ul>
-                <Link href="/?service=wechat&quantity=5&tier=standard">
-                  <button className="w-full bg-green-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-green-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('wechat', '5', 'standard')} className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">Order Now</button>
               </div>
               <div className="bg-green-50 border-2 border-green-200 rounded-lg p-6 shadow-lg relative">
                 <div className="absolute top-4 right-4 bg-green-500 text-white px-2 py-1 rounded text-xs font-bold">Popular</div>
@@ -282,11 +274,7 @@ export default function WeChatPVAAccounts() {
                     Dedicated Support
                   </li>
                 </ul>
-                <Link href="/?service=wechat&quantity=10&tier=standard">
-                  <button className="w-full bg-green-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-green-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('wechat', '10', 'standard')} className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">Order Now</button>
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <h4 className="text-xl font-bold mb-4">25 Accounts</h4>
@@ -305,11 +293,7 @@ export default function WeChatPVAAccounts() {
                     Premium Management
                   </li>
                 </ul>
-                <Link href="/?service=wechat&quantity=25&tier=standard">
-                  <button className="w-full bg-green-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-green-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('wechat', '25', 'standard')} className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">Order Now</button>
               </div>
             </div>
           </div>
@@ -335,11 +319,7 @@ export default function WeChatPVAAccounts() {
                     Mini Program Access
                   </li>
                 </ul>
-                <Link href="/?service=wechat&quantity=1&tier=premium">
-                  <button className="w-full bg-green-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-green-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('wechat', '1', 'premium')} className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">Order Now</button>
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <h4 className="text-xl font-bold mb-4">5 Premium Accounts</h4>
@@ -358,11 +338,7 @@ export default function WeChatPVAAccounts() {
                     Business Integration
                   </li>
                 </ul>
-                <Link href="/?service=wechat&quantity=5&tier=premium">
-                  <button className="w-full bg-green-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-green-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('wechat', '5', 'premium')} className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">Order Now</button>
               </div>
               <div className="bg-green-50 border-2 border-green-200 rounded-lg p-6 shadow-lg relative">
                 <div className="absolute top-4 right-4 bg-green-500 text-white px-2 py-1 rounded text-xs font-bold">Popular</div>
@@ -382,11 +358,7 @@ export default function WeChatPVAAccounts() {
                     VIP China Support
                   </li>
                 </ul>
-                <Link href="/?service=wechat&quantity=10&tier=premium">
-                  <button className="w-full bg-green-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-green-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('wechat', '10', 'premium')} className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">Order Now</button>
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <h4 className="text-xl font-bold mb-4">25 Premium Accounts</h4>
@@ -405,11 +377,7 @@ export default function WeChatPVAAccounts() {
                     Enterprise China Access
                   </li>
                 </ul>
-                <Link href="/?service=wechat&quantity=25&tier=premium">
-                  <button className="w-full bg-green-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-green-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('wechat', '25', 'premium')} className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">Order Now</button>
               </div>
             </div>
           </div>

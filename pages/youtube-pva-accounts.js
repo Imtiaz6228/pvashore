@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import Link from 'next/link'
 import Navbar from '../components/Navbar'
 import { ShieldCheck, CheckCircle, Clock, Star, Zap, MessageCircle } from 'lucide-react'
+import { useState } from 'react'
 
 export default function YouTubePVAAccounts() {
   const pageTitle = "Buy YouTube PVA Accounts - Phone Verified YouTube Accounts | PVAshore"
@@ -31,6 +31,16 @@ export default function YouTubePVAAccounts() {
       "ratingValue": "4.9",
       "reviewCount": "1200"
     }
+  }
+
+  const [contactPopup, setContactPopup] = useState({ isOpen: false, service: '', quantity: '', tier: '' })
+
+  const handleOrderClick = (service, quantity, tier) => {
+    setContactPopup({ isOpen: true, service, quantity, tier })
+  }
+
+  const closePopup = () => {
+    setContactPopup({ isOpen: false, service: '', quantity: '', tier: '' })
   }
 
   return (
@@ -127,11 +137,7 @@ export default function YouTubePVAAccounts() {
                     Bulk Discount
                   </li>
                 </ul>
-                <Link href="/?service=youtube&quantity=50&tier=fresh">
-                  <button className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('youtube', '50', 'fresh')} className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">Order Now</button>
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <h4 className="text-xl font-bold mb-4">100 Accounts</h4>
@@ -150,11 +156,7 @@ export default function YouTubePVAAccounts() {
                     Maximum Value
                   </li>
                 </ul>
-                <Link href="/?service=youtube&quantity=100&tier=fresh">
-                  <button className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('youtube', '100', 'fresh')} className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">Order Now</button>
               </div>
               <div className="bg-red-50 border-2 border-red-200 rounded-lg p-6 shadow-lg relative">
                 <div className="absolute top-4 right-4 bg-red-500 text-white px-2 py-1 rounded text-xs font-bold">Popular</div>
@@ -174,11 +176,7 @@ export default function YouTubePVAAccounts() {
                     Best Bulk Price
                   </li>
                 </ul>
-                <Link href="/?service=youtube&quantity=200&tier=fresh">
-                  <button className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('youtube', '200', 'fresh')} className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">Order Now</button>
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <h4 className="text-xl font-bold mb-4">500 Accounts</h4>
@@ -197,11 +195,7 @@ export default function YouTubePVAAccounts() {
                     Ultimate Bulk Deal
                   </li>
                 </ul>
-                <Link href="/?service=youtube&quantity=500&tier=fresh">
-                  <button className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('youtube', '500', 'fresh')} className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">Order Now</button>
               </div>
             </div>
           </div>
@@ -227,11 +221,7 @@ export default function YouTubePVAAccounts() {
                     Established Accounts
                   </li>
                 </ul>
-                <Link href="/?service=youtube&quantity=50&tier=6months">
-                  <button className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('youtube', '50', '6months')} className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">Order Now</button>
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <h4 className="text-xl font-bold mb-4">100 Accounts</h4>
@@ -250,11 +240,7 @@ export default function YouTubePVAAccounts() {
                     Bulk Discount
                   </li>
                 </ul>
-                <Link href="/?service=youtube&quantity=100&tier=6months">
-                  <button className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('youtube', '100', '6months')} className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">Order Now</button>
               </div>
               <div className="bg-red-50 border-2 border-red-200 rounded-lg p-6 shadow-lg relative">
                 <div className="absolute top-4 right-4 bg-red-500 text-white px-2 py-1 rounded text-xs font-bold">Popular</div>
@@ -274,11 +260,7 @@ export default function YouTubePVAAccounts() {
                     Premium Discount
                   </li>
                 </ul>
-                <Link href="/?service=youtube&quantity=200&tier=6months">
-                  <button className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('youtube', '200', '6months')} className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">Order Now</button>
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <h4 className="text-xl font-bold mb-4">500 Accounts</h4>
@@ -297,11 +279,7 @@ export default function YouTubePVAAccounts() {
                     Ultimate Bulk Deal
                   </li>
                 </ul>
-                <Link href="/?service=youtube&quantity=500&tier=6months">
-                  <button className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('youtube', '500', '6months')} className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">Order Now</button>
               </div>
             </div>
           </div>
@@ -318,6 +296,14 @@ export default function YouTubePVAAccounts() {
           </button>
         </div>
       </section>
+
+      <ContactPopup
+        isOpen={contactPopup.isOpen}
+        onClose={closePopup}
+        service={contactPopup.service}
+        quantity={contactPopup.quantity}
+        tier={contactPopup.tier}
+      />
       </div>
     </>
   )

@@ -34,6 +34,16 @@ export default function ThreadsPVAAccounts() {
     }
   }
 
+  const [contactPopup, setContactPopup] = useState({ isOpen: false, service: '', quantity: '', tier: '' })
+
+  const handleOrderClick = (service, quantity, tier) => {
+    setContactPopup({ isOpen: true, service, quantity, tier })
+  }
+
+  const closePopup = () => {
+    setContactPopup({ isOpen: false, service: '', quantity: '', tier: '' })
+  }
+
   return (
     <>
       <Head>
@@ -128,11 +138,7 @@ export default function ThreadsPVAAccounts() {
                     Bulk Discount
                   </li>
                 </ul>
-                <Link href="/?service=threads&quantity=100&tier=fresh">
-                  <button className="w-full bg-gray-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-gray-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('threads', '100', 'fresh')} className="w-full bg-gray-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-gray-700 transition-colors">Order Now</button>
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <h4 className="text-xl font-bold mb-4">200 Accounts</h4>
@@ -151,11 +157,7 @@ export default function ThreadsPVAAccounts() {
                     Maximum Value
                   </li>
                 </ul>
-                <Link href="/?service=threads&quantity=200&tier=fresh">
-                  <button className="w-full bg-gray-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-gray-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('threads', '200', 'fresh')} className="w-full bg-gray-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-gray-700 transition-colors">Order Now</button>
               </div>
               <div className="bg-gray-50 border-2 border-gray-200 rounded-lg p-6 shadow-lg relative">
                 <div className="absolute top-4 right-4 bg-gray-500 text-white px-2 py-1 rounded text-xs font-bold">Popular</div>
@@ -175,11 +177,7 @@ export default function ThreadsPVAAccounts() {
                     Best Bulk Price
                   </li>
                 </ul>
-                <Link href="/?service=threads&quantity=600&tier=fresh">
-                  <button className="w-full bg-gray-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-gray-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('threads', '600', 'fresh')} className="w-full bg-gray-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-gray-700 transition-colors">Order Now</button>
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <h4 className="text-xl font-bold mb-4">1000 Accounts</h4>
@@ -198,11 +196,7 @@ export default function ThreadsPVAAccounts() {
                     Ultimate Bulk Deal
                   </li>
                 </ul>
-                <Link href="/?service=threads&quantity=1000&tier=fresh">
-                  <button className="w-full bg-gray-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-gray-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('threads', '1000', 'fresh')} className="w-full bg-gray-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-gray-700 transition-colors">Order Now</button>
               </div>
             </div>
           </div>
@@ -228,11 +222,7 @@ export default function ThreadsPVAAccounts() {
                     Established Accounts
                   </li>
                 </ul>
-                <Link href="/?service=threads&quantity=100&tier=1month">
-                  <button className="w-full bg-gray-900 text-white py-2 px-4 rounded-lg font-semibold hover:bg-gray-800 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('threads', '100', '1month')} className="w-full bg-gray-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-gray-700 transition-colors">Order Now</button>
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <h4 className="text-xl font-bold mb-4">200 Accounts</h4>
@@ -251,11 +241,7 @@ export default function ThreadsPVAAccounts() {
                     Bulk Discount
                   </li>
                 </ul>
-                <Link href="/?service=threads&quantity=200&tier=1month">
-                  <button className="w-full bg-gray-900 text-white py-2 px-4 rounded-lg font-semibold hover:bg-gray-800 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('threads', '200', '1month')} className="w-full bg-gray-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-gray-700 transition-colors">Order Now</button>
               </div>
               <div className="bg-gray-50 border-2 border-gray-300 rounded-lg p-6 shadow-lg relative">
                 <div className="absolute top-4 right-4 bg-gray-900 text-white px-2 py-1 rounded text-xs font-bold">Popular</div>
@@ -275,11 +261,7 @@ export default function ThreadsPVAAccounts() {
                     Premium Discount
                   </li>
                 </ul>
-                <Link href="/?service=threads&quantity=600&tier=1month">
-                  <button className="w-full bg-gray-900 text-white py-2 px-4 rounded-lg font-semibold hover:bg-gray-800 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('threads', '600', '1month')} className="w-full bg-gray-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-gray-700 transition-colors">Order Now</button>
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <h4 className="text-xl font-bold mb-4">1000 Accounts</h4>
@@ -298,11 +280,7 @@ export default function ThreadsPVAAccounts() {
                     Ultimate Bulk Deal
                   </li>
                 </ul>
-                <Link href="/?service=threads&quantity=1000&tier=1month">
-                  <button className="w-full bg-gray-900 text-white py-2 px-4 rounded-lg font-semibold hover:bg-gray-800 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('threads', '1000', '1month')} className="w-full bg-gray-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-gray-700 transition-colors">Order Now</button>
               </div>
             </div>
           </div>
@@ -319,6 +297,14 @@ export default function ThreadsPVAAccounts() {
           </button>
         </div>
       </section>
+
+      <ContactPopup
+        isOpen={contactPopup.isOpen}
+        onClose={closePopup}
+        service={contactPopup.service}
+        quantity={contactPopup.quantity}
+        tier={contactPopup.tier}
+      />
       </div>
     </>
   )
