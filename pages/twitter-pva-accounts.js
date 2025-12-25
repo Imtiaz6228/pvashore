@@ -138,11 +138,9 @@ export default function TwitterPVAAccounts() {
                     Bulk Discount
                   </li>
                 </ul>
-                <Link href="/?service=twitter&quantity=50&tier=fresh">
-                  <button className="w-full bg-sky-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-sky-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('twitter', '50', 'fresh')} className="w-full bg-sky-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-sky-700 transition-colors">
+                  Order Now
+                </button>
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <h4 className="text-xl font-bold mb-4">100 Accounts</h4>
@@ -161,11 +159,9 @@ export default function TwitterPVAAccounts() {
                     Maximum Value
                   </li>
                 </ul>
-                <Link href="/?service=twitter&quantity=100&tier=fresh">
-                  <button className="w-full bg-sky-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-sky-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('twitter', '100', 'fresh')} className="w-full bg-sky-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-sky-700 transition-colors">
+                  Order Now
+                </button>
               </div>
               <div className="bg-sky-50 border-2 border-sky-200 rounded-lg p-6 shadow-lg relative">
                 <div className="absolute top-4 right-4 bg-sky-500 text-white px-2 py-1 rounded text-xs font-bold">Popular</div>
@@ -185,11 +181,9 @@ export default function TwitterPVAAccounts() {
                     Best Bulk Price
                   </li>
                 </ul>
-                <Link href="/?service=twitter&quantity=220&tier=fresh">
-                  <button className="w-full bg-sky-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-sky-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('twitter', '220', 'fresh')} className="w-full bg-sky-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-sky-700 transition-colors">
+                  Order Now
+                </button>
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <h4 className="text-xl font-bold mb-4">500 Accounts</h4>
