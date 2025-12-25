@@ -1,8 +1,19 @@
 import Link from 'next/link'
 import Navbar from '../components/Navbar'
+import ContactPopup from '../components/ContactPopup'
 import { ShieldCheck, CheckCircle, Clock, Star, Zap, MessageCircle, Smartphone, Users, Globe, Award, Heart } from 'lucide-react'
+import { useState } from 'react'
 
 export default function TinderAccounts() {
+  const [contactPopup, setContactPopup] = useState({ isOpen: false, service: '', quantity: '', tier: '' })
+
+  const handleOrderClick = (service, quantity, tier) => {
+    setContactPopup({ isOpen: true, service, quantity, tier })
+  }
+
+  const closePopup = () => {
+    setContactPopup({ isOpen: false, service: '', quantity: '', tier: '' })
+  }
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
@@ -98,11 +109,9 @@ export default function TinderAccounts() {
                     Instant Delivery
                   </li>
                 </ul>
-                <Link href="/?service=tinder&quantity=1&tier=standard">
-                  <button className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('tinder', '1', 'standard')} className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
+                  Order Now
+                </button>
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <h4 className="text-xl font-bold mb-4">5 Accounts</h4>
@@ -121,11 +130,9 @@ export default function TinderAccounts() {
                     Priority Setup
                   </li>
                 </ul>
-                <Link href="/?service=tinder&quantity=5&tier=standard">
-                  <button className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('tinder', '5', 'standard')} className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
+                  Order Now
+                </button>
               </div>
               <div className="bg-pink-50 border-2 border-pink-200 rounded-lg p-6 shadow-lg relative">
                 <div className="absolute top-4 right-4 bg-pink-500 text-white px-2 py-1 rounded text-xs font-bold">Popular</div>
@@ -145,11 +152,9 @@ export default function TinderAccounts() {
                     Dedicated Support
                   </li>
                 </ul>
-                <Link href="/?service=tinder&quantity=10&tier=standard">
-                  <button className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('tinder', '10', 'standard')} className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
+                  Order Now
+                </button>
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <h4 className="text-xl font-bold mb-4">25 Accounts</h4>
@@ -168,11 +173,9 @@ export default function TinderAccounts() {
                     Premium Management
                   </li>
                 </ul>
-                <Link href="/?service=tinder&quantity=25&tier=standard">
-                  <button className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('tinder', '25', 'standard')} className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
+                  Order Now
+                </button>
               </div>
             </div>
           </div>
@@ -198,11 +201,9 @@ export default function TinderAccounts() {
                     Profile Optimization
                   </li>
                 </ul>
-                <Link href="/?service=tinder&quantity=1&tier=premium">
-                  <button className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('tinder', '1', 'premium')} className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
+                  Order Now
+                </button>
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <h4 className="text-xl font-bold mb-4">5 Premium Accounts</h4>
@@ -221,11 +222,9 @@ export default function TinderAccounts() {
                     Social Proof Included
                   </li>
                 </ul>
-                <Link href="/?service=tinder&quantity=5&tier=premium">
-                  <button className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('tinder', '5', 'premium')} className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
+                  Order Now
+                </button>
               </div>
               <div className="bg-pink-50 border-2 border-pink-200 rounded-lg p-6 shadow-lg relative">
                 <div className="absolute top-4 right-4 bg-pink-500 text-white px-2 py-1 rounded text-xs font-bold">Popular</div>
@@ -245,11 +244,9 @@ export default function TinderAccounts() {
                     VIP Tinder Support
                   </li>
                 </ul>
-                <Link href="/?service=tinder&quantity=10&tier=premium">
-                  <button className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('tinder', '10', 'premium')} className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
+                  Order Now
+                </button>
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <h4 className="text-xl font-bold mb-4">25 Premium Accounts</h4>
@@ -268,11 +265,9 @@ export default function TinderAccounts() {
                     Enterprise Tinder Access
                   </li>
                 </ul>
-                <Link href="/?service=tinder&quantity=25&tier=premium">
-                  <button className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('tinder', '25', 'premium')} className="w-full bg-pink-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-pink-700 transition-colors">
+                  Order Now
+                </button>
               </div>
             </div>
           </div>
@@ -289,6 +284,14 @@ export default function TinderAccounts() {
           </button>
         </div>
       </section>
+
+      <ContactPopup
+        isOpen={contactPopup.isOpen}
+        onClose={closePopup}
+        service={contactPopup.service}
+        quantity={contactPopup.quantity}
+        tier={contactPopup.tier}
+      />
     </div>
   )
 }

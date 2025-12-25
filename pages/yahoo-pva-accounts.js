@@ -1,9 +1,20 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Navbar from '../components/Navbar'
+import ContactPopup from '../components/ContactPopup'
 import { ShieldCheck, CheckCircle, Clock, Star, Zap, MessageCircle, Smartphone, Users, Globe, Award, Mail } from 'lucide-react'
+import { useState } from 'react'
 
 export default function YahooPVAAccounts() {
+  const [contactPopup, setContactPopup] = useState({ isOpen: false, service: '', quantity: '', tier: '' })
+
+  const handleOrderClick = (service, quantity, tier) => {
+    setContactPopup({ isOpen: true, service, quantity, tier })
+  }
+
+  const closePopup = () => {
+    setContactPopup({ isOpen: false, service: '', quantity: '', tier: '' })
+  }
   return (
     <>
       <Head>
@@ -235,11 +246,9 @@ export default function YahooPVAAccounts() {
                     Instant Delivery
                   </li>
                 </ul>
-                <Link href="/?service=yahoo&quantity=1&tier=standard">
-                  <button className="w-full bg-purple-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-purple-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('yahoo', '1', 'standard')} className="w-full bg-purple-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-purple-700 transition-colors">
+                  Order Now
+                </button>
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <h4 className="text-xl font-bold mb-4">5 Accounts</h4>
@@ -258,11 +267,9 @@ export default function YahooPVAAccounts() {
                     Priority Setup
                   </li>
                 </ul>
-                <Link href="/?service=yahoo&quantity=5&tier=standard">
-                  <button className="w-full bg-purple-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-purple-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('yahoo', '5', 'standard')} className="w-full bg-purple-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-purple-700 transition-colors">
+                  Order Now
+                </button>
               </div>
               <div className="bg-purple-50 border-2 border-purple-200 rounded-lg p-6 shadow-lg relative">
                 <div className="absolute top-4 right-4 bg-purple-500 text-white px-2 py-1 rounded text-xs font-bold">Popular</div>
@@ -282,11 +289,9 @@ export default function YahooPVAAccounts() {
                     Dedicated Support
                   </li>
                 </ul>
-                <Link href="/?service=yahoo&quantity=10&tier=standard">
-                  <button className="w-full bg-purple-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-purple-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('yahoo', '10', 'standard')} className="w-full bg-purple-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-purple-700 transition-colors">
+                  Order Now
+                </button>
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <h4 className="text-xl font-bold mb-4">25 Accounts</h4>
@@ -305,11 +310,9 @@ export default function YahooPVAAccounts() {
                     Premium Management
                   </li>
                 </ul>
-                <Link href="/?service=yahoo&quantity=25&tier=standard">
-                  <button className="w-full bg-purple-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-purple-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('yahoo', '25', 'standard')} className="w-full bg-purple-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-purple-700 transition-colors">
+                  Order Now
+                </button>
               </div>
             </div>
           </div>
@@ -335,11 +338,9 @@ export default function YahooPVAAccounts() {
                     Priority Support
                   </li>
                 </ul>
-                <Link href="/?service=yahoo&quantity=1&tier=premium">
-                  <button className="w-full bg-purple-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-purple-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('yahoo', '1', 'premium')} className="w-full bg-purple-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-purple-700 transition-colors">
+                  Order Now
+                </button>
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <h4 className="text-xl font-bold mb-4">5 Premium Accounts</h4>
@@ -358,11 +359,9 @@ export default function YahooPVAAccounts() {
                     Business Integration
                   </li>
                 </ul>
-                <Link href="/?service=yahoo&quantity=5&tier=premium">
-                  <button className="w-full bg-purple-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-purple-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('yahoo', '5', 'premium')} className="w-full bg-purple-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-purple-700 transition-colors">
+                  Order Now
+                </button>
               </div>
               <div className="bg-purple-50 border-2 border-purple-200 rounded-lg p-6 shadow-lg relative">
                 <div className="absolute top-4 right-4 bg-purple-500 text-white px-2 py-1 rounded text-xs font-bold">Popular</div>
@@ -382,11 +381,9 @@ export default function YahooPVAAccounts() {
                     VIP Yahoo Support
                   </li>
                 </ul>
-                <Link href="/?service=yahoo&quantity=10&tier=premium">
-                  <button className="w-full bg-purple-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-purple-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('yahoo', '10', 'premium')} className="w-full bg-purple-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-purple-700 transition-colors">
+                  Order Now
+                </button>
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <h4 className="text-xl font-bold mb-4">25 Premium Accounts</h4>
@@ -405,11 +402,9 @@ export default function YahooPVAAccounts() {
                     Enterprise Yahoo Access
                   </li>
                 </ul>
-                <Link href="/?service=yahoo&quantity=25&tier=premium">
-                  <button className="w-full bg-purple-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-purple-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('yahoo', '25', 'premium')} className="w-full bg-purple-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-purple-700 transition-colors">
+                  Order Now
+                </button>
               </div>
             </div>
           </div>
@@ -426,6 +421,14 @@ export default function YahooPVAAccounts() {
           </button>
         </div>
       </section>
+
+      <ContactPopup
+        isOpen={contactPopup.isOpen}
+        onClose={closePopup}
+        service={contactPopup.service}
+        quantity={contactPopup.quantity}
+        tier={contactPopup.tier}
+      />
       </div>
     </>
   )

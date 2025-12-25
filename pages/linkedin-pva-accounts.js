@@ -1,9 +1,20 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Navbar from '../components/Navbar'
+import ContactPopup from '../components/ContactPopup'
 import { ShieldCheck, CheckCircle, Clock, Star, Zap, MessageCircle, Briefcase, Users, Globe, Award } from 'lucide-react'
+import { useState } from 'react'
 
 export default function LinkedInPVAAccounts() {
+  const [contactPopup, setContactPopup] = useState({ isOpen: false, service: '', quantity: '', tier: '' })
+
+  const handleOrderClick = (service, quantity, tier) => {
+    setContactPopup({ isOpen: true, service, quantity, tier })
+  }
+
+  const closePopup = () => {
+    setContactPopup({ isOpen: false, service: '', quantity: '', tier: '' })
+  }
   return (
     <>
       <Head>
@@ -394,6 +405,14 @@ export default function LinkedInPVAAccounts() {
           </button>
         </div>
       </section>
+
+      <ContactPopup
+        isOpen={contactPopup.isOpen}
+        onClose={closePopup}
+        service={contactPopup.service}
+        quantity={contactPopup.quantity}
+        tier={contactPopup.tier}
+      />
       </div>
     </>
   )
