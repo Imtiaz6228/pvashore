@@ -1,7 +1,8 @@
 import Head from 'next/head'
-import Link from 'next/link'
 import Navbar from '../components/Navbar'
+import ContactPopup from '../components/ContactPopup'
 import { ShieldCheck, CheckCircle, Clock, Star, Zap, MessageCircle } from 'lucide-react'
+import { useState } from 'react'
 
 export default function ThreadsPVAAccounts() {
   const pageTitle = "Buy Threads PVA Accounts - Phone Verified Threads Accounts | PVAshore"

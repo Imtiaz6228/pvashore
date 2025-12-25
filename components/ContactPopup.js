@@ -8,13 +8,13 @@ export default function ContactPopup({ isOpen, onClose, service, quantity, tier 
 
   const handleWhatsApp = () => {
     const message = `Hi! I'm interested in ordering ${quantity} ${service} PVA accounts (${tier} tier). Please provide payment and order details.`
-    const whatsappUrl = `https://wa.me/1234567890?text=${encodeURIComponent(message)}` // Replace with actual WhatsApp number
+    const whatsappUrl = `https://wa.me/923064586476?text=${encodeURIComponent(message)}`
     window.open(whatsappUrl, '_blank')
   }
 
   const handleTelegram = () => {
     const message = `Hi! I'm interested in ordering ${quantity} ${service} PVA accounts (${tier} tier). Please provide payment and order details.`
-    const telegramUrl = `https://t.me/yourusername?text=${encodeURIComponent(message)}` // Replace with actual Telegram username
+    const telegramUrl = `https://t.me/Stupendous9?text=${encodeURIComponent(message)}`
     window.open(telegramUrl, '_blank')
   }
 

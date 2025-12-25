@@ -1,7 +1,8 @@
 import Head from 'next/head'
-import Link from 'next/link'
 import Navbar from '../components/Navbar'
+import ContactPopup from '../components/ContactPopup'
 import { ShieldCheck, CheckCircle, Clock, Star, Zap, MessageCircle } from 'lucide-react'
+import { useState } from 'react'
 
 export default function TwitterPVAAccounts() {
   const pageTitle = "Buy Twitter PVA Accounts - Phone Verified Twitter Accounts | PVAshore"
@@ -31,6 +32,16 @@ export default function TwitterPVAAccounts() {
       "ratingValue": "4.8",
       "reviewCount": "920"
     }
+  }
+
+  const [contactPopup, setContactPopup] = useState({ isOpen: false, service: '', quantity: '', tier: '' })
+
+  const handleOrderClick = (service, quantity, tier) => {
+    setContactPopup({ isOpen: true, service, quantity, tier })
+  }
+
+  const closePopup = () => {
+    setContactPopup({ isOpen: false, service: '', quantity: '', tier: '' })
   }
 
   return (
@@ -518,6 +529,14 @@ export default function TwitterPVAAccounts() {
           </button>
         </div>
       </section>
+
+      <ContactPopup
+        isOpen={contactPopup.isOpen}
+        onClose={closePopup}
+        service={contactPopup.service}
+        quantity={contactPopup.quantity}
+        tier={contactPopup.tier}
+      />
       </div>
     </>
   )

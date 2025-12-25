@@ -182,11 +182,9 @@ export default function GmailPVAAccounts() {
                     Best Bulk Price
                   </li>
                 </ul>
-                <Link href="/?service=gmail&quantity=500&tier=fresh">
-                  <button className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('gmail', '500', 'fresh')} className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">
+                  Order Now
+                </button>
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <h4 className="text-xl font-bold mb-4">1000 Accounts</h4>
@@ -205,11 +203,9 @@ export default function GmailPVAAccounts() {
                     Ultimate Bulk Deal
                   </li>
                 </ul>
-                <Link href="/?service=gmail&quantity=1000&tier=fresh">
-                  <button className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('gmail', '1000', 'fresh')} className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">
+                  Order Now
+                </button>
               </div>
             </div>
           </div>
@@ -235,11 +231,9 @@ export default function GmailPVAAccounts() {
                     Established Accounts
                   </li>
                 </ul>
-                <Link href="/?service=gmail&quantity=25&tier=1-6months">
-                  <button className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('gmail', '25', '1-6months')} className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">
+                  Order Now
+                </button>
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <h4 className="text-xl font-bold mb-4">50 Accounts</h4>
@@ -258,11 +252,9 @@ export default function GmailPVAAccounts() {
                     Bulk Discount
                   </li>
                 </ul>
-                <Link href="/?service=gmail&quantity=50&tier=1-6months">
-                  <button className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('gmail', '50', '1-6months')} className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">
+                  Order Now
+                </button>
               </div>
               <div className="bg-red-50 border-2 border-red-200 rounded-lg p-6 shadow-lg relative">
                 <div className="absolute top-4 right-4 bg-red-500 text-white px-2 py-1 rounded text-xs font-bold">Popular</div>
@@ -331,11 +323,9 @@ export default function GmailPVAAccounts() {
                     Established Trust
                   </li>
                 </ul>
-                <Link href="/?service=gmail&quantity=10&tier=1year">
-                  <button className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('gmail', '10', '1year')} className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">
+                  Order Now
+                </button>
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <h4 className="text-xl font-bold mb-4">30 Accounts</h4>
@@ -354,11 +344,9 @@ export default function GmailPVAAccounts() {
                     Bulk Savings
                   </li>
                 </ul>
-                <Link href="/?service=gmail&quantity=30&tier=1year">
-                  <button className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('gmail', '30', '1year')} className="w-full bg-red-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-red-700 transition-colors">
+                  Order Now
+                </button>
               </div>
               <div className="bg-red-50 border-2 border-red-200 rounded-lg p-6 shadow-lg relative">
                 <div className="absolute top-4 right-4 bg-red-500 text-white px-2 py-1 rounded text-xs font-bold">Popular</div>
