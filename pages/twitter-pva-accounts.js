@@ -202,11 +202,9 @@ export default function TwitterPVAAccounts() {
                     Ultimate Bulk Deal
                   </li>
                 </ul>
-                <Link href="/?service=twitter&quantity=500&tier=fresh">
-                  <button className="w-full bg-sky-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-sky-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('twitter', '500', 'fresh')} className="w-full bg-sky-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-sky-700 transition-colors">
+                  Order Now
+                </button>
               </div>
             </div>
           </div>
@@ -232,11 +230,9 @@ export default function TwitterPVAAccounts() {
                     Established Accounts
                   </li>
                 </ul>
-                <Link href="/?service=twitter&quantity=25&tier=1-6months">
-                  <button className="w-full bg-sky-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-sky-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('twitter', '25', '1-6months')} className="w-full bg-sky-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-sky-700 transition-colors">
+                  Order Now
+                </button>
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <h4 className="text-xl font-bold mb-4">50 Accounts</h4>
@@ -255,11 +251,9 @@ export default function TwitterPVAAccounts() {
                     Bulk Discount
                   </li>
                 </ul>
-                <Link href="/?service=twitter&quantity=50&tier=1-6months">
-                  <button className="w-full bg-sky-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-sky-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('twitter', '50', '1-6months')} className="w-full bg-sky-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-sky-700 transition-colors">
+                  Order Now
+                </button>
               </div>
               <div className="bg-sky-50 border-2 border-sky-200 rounded-lg p-6 shadow-lg relative">
                 <div className="absolute top-4 right-4 bg-sky-500 text-white px-2 py-1 rounded text-xs font-bold">Popular</div>
@@ -279,11 +273,7 @@ export default function TwitterPVAAccounts() {
                     Premium Discount
                   </li>
                 </ul>
-                <Link href="/?service=twitter&quantity=110&tier=1-6months">
-                  <button className="w-full bg-sky-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-sky-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('twitter', '110', '1-6months')} className="w-full bg-sky-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-sky-700 transition-colors">Order Now</button>
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <h4 className="text-xl font-bold mb-4">250 Accounts</h4>
@@ -302,11 +292,7 @@ export default function TwitterPVAAccounts() {
                     Ultimate Bulk Deal
                   </li>
                 </ul>
-                <Link href="/?service=twitter&quantity=250&tier=1-6months">
-                  <button className="w-full bg-sky-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-sky-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('twitter', '250', '1-6months')} className="w-full bg-sky-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-sky-700 transition-colors">Order Now</button>
               </div>
             </div>
           </div>
@@ -332,11 +318,7 @@ export default function TwitterPVAAccounts() {
                     Established Trust
                   </li>
                 </ul>
-                <Link href="/?service=twitter&quantity=25&tier=1year">
-                  <button className="w-full bg-sky-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-sky-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('twitter', '25', '1year')} className="w-full bg-sky-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-sky-700 transition-colors">Order Now</button>
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <h4 className="text-xl font-bold mb-4">50 Accounts</h4>
@@ -355,11 +337,7 @@ export default function TwitterPVAAccounts() {
                     Bulk Savings
                   </li>
                 </ul>
-                <Link href="/?service=twitter&quantity=50&tier=1year">
-                  <button className="w-full bg-sky-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-sky-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('twitter', '50', '1year')} className="w-full bg-sky-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-sky-700 transition-colors">Order Now</button>
               </div>
               <div className="bg-sky-50 border-2 border-sky-200 rounded-lg p-6 shadow-lg relative">
                 <div className="absolute top-4 right-4 bg-sky-500 text-white px-2 py-1 rounded text-xs font-bold">Popular</div>
@@ -379,11 +357,7 @@ export default function TwitterPVAAccounts() {
                     Maximum Value
                   </li>
                 </ul>
-                <Link href="/?service=twitter&quantity=110&tier=1year">
-                  <button className="w-full bg-sky-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-sky-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('twitter', '110', '1year')} className="w-full bg-sky-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-sky-700 transition-colors">Order Now</button>
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <h4 className="text-xl font-bold mb-4">250 Accounts</h4>
@@ -402,11 +376,7 @@ export default function TwitterPVAAccounts() {
                     Ultimate Discount
                   </li>
                 </ul>
-                <Link href="/?service=twitter&quantity=250&tier=1year">
-                  <button className="w-full bg-sky-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-sky-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('twitter', '250', '1year')} className="w-full bg-sky-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-sky-700 transition-colors">Order Now</button>
               </div>
             </div>
           </div>
@@ -432,11 +402,7 @@ export default function TwitterPVAAccounts() {
                     Maximum Trust
                   </li>
                 </ul>
-                <Link href="/?service=twitter&quantity=25&tier=2years">
-                  <button className="w-full bg-sky-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-sky-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('twitter', '25', '2years')} className="w-full bg-sky-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-sky-700 transition-colors">Order Now</button>
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <h4 className="text-xl font-bold mb-4">50 Accounts</h4>
@@ -455,11 +421,7 @@ export default function TwitterPVAAccounts() {
                     Elite Discount
                   </li>
                 </ul>
-                <Link href="/?service=twitter&quantity=50&tier=2years">
-                  <button className="w-full bg-sky-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-sky-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('twitter', '50', '2years')} className="w-full bg-sky-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-sky-700 transition-colors">Order Now</button>
               </div>
               <div className="bg-sky-50 border-2 border-sky-200 rounded-lg p-6 shadow-lg relative">
                 <div className="absolute top-4 right-4 bg-sky-500 text-white px-2 py-1 rounded text-xs font-bold">Popular</div>
@@ -479,11 +441,7 @@ export default function TwitterPVAAccounts() {
                     Best Value
                   </li>
                 </ul>
-                <Link href="/?service=twitter&quantity=110&tier=2years">
-                  <button className="w-full bg-sky-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-sky-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('twitter', '110', '2years')} className="w-full bg-sky-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-sky-700 transition-colors">Order Now</button>
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <h4 className="text-xl font-bold mb-4">250 Accounts</h4>
@@ -502,11 +460,7 @@ export default function TwitterPVAAccounts() {
                     Ultimate Bulk Deal
                   </li>
                 </ul>
-                <Link href="/?service=twitter&quantity=250&tier=2years">
-                  <button className="w-full bg-sky-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-sky-700 transition-colors">
-                    Order Now
-                  </button>
-                </Link>
+                <button onClick={() => handleOrderClick('twitter', '250', '2years')} className="w-full bg-sky-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-sky-700 transition-colors">Order Now</button>
               </div>
             </div>
           </div>
