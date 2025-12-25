@@ -9,6 +9,7 @@ export default function FacebookPVAAccounts() {
   const [contactPopup, setContactPopup] = useState({ isOpen: false, service: '', quantity: '', tier: '' })
 
   const handleOrderClick = (service, quantity, tier) => {
+    console.log('Order button clicked:', { service, quantity, tier })
     setContactPopup({ isOpen: true, service, quantity, tier })
   }
 

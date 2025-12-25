@@ -2,7 +2,9 @@ import React from 'react'
 import { MessageCircle, Mail, X } from 'lucide-react'
 
 export default function ContactPopup({ isOpen, onClose, service, quantity, tier }) {
+  console.log('ContactPopup called with isOpen:', isOpen)
   if (!isOpen) return null
+  console.log('ContactPopup rendering popup for', service, quantity, tier)
 
   const handleWhatsApp = () => {
     const message = `Hi! I'm interested in ordering ${quantity} ${service} PVA accounts (${tier} tier). Please provide payment and order details.`
