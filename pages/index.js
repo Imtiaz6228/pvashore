@@ -191,6 +191,9 @@ export default function Home() {
         <meta name="language" content="English" />
         <meta name="revisit-after" content="7 days" />
 
+        {/* Google Site Verification */}
+        <meta name="google-site-verification" content="xwrF7Se2TED2tMoIGkIu0xBpSkWNJXOkPQnSEztdfns" />
+
         {/* Schema.org Organization markup */}
         <script
           type="application/ld+json"
