@@ -135,13 +135,13 @@ export default function Navbar() {
                   <span>Services</span>
                   <ChevronDown className={`h-4 w-4 transform transition-transform duration-200 ease-in-out ${mobileServicesOpen ? 'rotate-180' : ''}`} />
                 </button>
-                <div
-                  id="mobile-services-menu"
-                  className={`overflow-hidden transition-all duration-300 ease-in-out ${
-                    mobileServicesOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
-                  }`}
-                  aria-hidden={!mobileServicesOpen}
-                >
+  <div
+    id="mobile-services-menu"
+    className={`overflow-y-auto transition-all duration-300 ease-in-out ${
+      mobileServicesOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
+    }`}
+    aria-hidden={!mobileServicesOpen}
+  >
                   <div className="pl-6 space-y-1 mt-1">
                     {services.map((service) => (
                       <Link
