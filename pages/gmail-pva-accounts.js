@@ -88,9 +88,8 @@ export default function GmailPVAAccounts() {
         />
       </Head>
 
-  return (
-    <div className="min-h-screen bg-white">
-      <Navbar />
+      <div className="min-h-screen bg-white">
+        <Navbar />
 
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-red-600 via-red-500 to-red-700 text-white py-24">
