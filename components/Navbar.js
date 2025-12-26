@@ -87,7 +87,7 @@ export default function Navbar() {
               )}
             </div>
 
-            <Link href="/order-now" className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors">
+            <Link href="/#services" className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors">
               Order Now
             </Link>
           </div>
@@ -157,7 +157,7 @@ export default function Navbar() {
                 </div>
               </div>
 
-              <Link href="/order-now" className="block px-3 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors" onClick={closeMobileMenu}>
+              <Link href="/#services" className="block px-3 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors" onClick={closeMobileMenu}>
                 Order Now
               </Link>
             </div>
