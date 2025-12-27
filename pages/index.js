@@ -42,50 +42,50 @@ export default function Home() {
     {
       icon: Mail,
       title: 'Gmail PVA Accounts',
-      oldPrice: '$15.00',
-      newPrice: '$500.00',
+      oldPrice: '$35.00',
+      newPrice: '$30.00',
       buttonText: 'Coming Soon'
     },
     {
       icon: Camera,
       title: 'Instagram PVA Accounts',
-      oldPrice: '$12.00',
-      newPrice: '$500.00',
+      oldPrice: '$$30.00',
+      newPrice: '$25.00',
       buttonText: 'Coming Soon'
     },
     {
       icon: ThumbsUp,
       title: 'Facebook PVA Accounts',
-      oldPrice: '$25.00',
-      newPrice: '$450.00',
+      oldPrice: '$35.00',
+      newPrice: '$30.00',
       buttonText: 'Coming Soon'
     },
     {
       icon: Bird,
       title: 'Twitter PVA Accounts',
-      oldPrice: '$20.00',
-      newPrice: '$350.00',
+      oldPrice: '$30.00',
+      newPrice: '$25.00',
       buttonText: 'Coming Soon'
     },
     {
       icon: Smartphone,
       title: 'Threads PVA Accounts',
-      oldPrice: '$18.00',
-      newPrice: '$400.00',
+      oldPrice: '$35.00',
+      newPrice: '$25.00',
       buttonText: 'Coming Soon'
     },
     {
       icon: Play,
       title: 'YouTube PVA Accounts',
       oldPrice: '$40.00',
-      newPrice: '$800.00',
+      newPrice: '$30.00',
       buttonText: 'Coming Soon'
     },
     {
       icon: Pin,
       title: 'TikTok PVA Accounts',
-      oldPrice: '$22.00',
-      newPrice: '$600.00',
+      oldPrice: '$60.00',
+      newPrice: '$50.00',
       buttonText: 'Coming Soon'
     },
     {
