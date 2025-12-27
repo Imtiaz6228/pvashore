@@ -84,8 +84,6 @@ export default function TwitterPVAAccounts() {
           }}
         />
       </Head>
-
-  return (
     <div className="min-h-screen bg-white">
       <Navbar />
 

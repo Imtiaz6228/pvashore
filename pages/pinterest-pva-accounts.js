@@ -85,8 +85,6 @@ export default function PinterestPVAAccounts() {
           }}
         />
       </Head>
-
-  return (
     <div className="min-h-screen bg-white">
       <Navbar />
 

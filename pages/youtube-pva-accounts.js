@@ -83,8 +83,6 @@ export default function YouTubePVAAccounts() {
           }}
         />
       </Head>
-
-  return (
     <div className="min-h-screen bg-white">
       <Navbar />
 

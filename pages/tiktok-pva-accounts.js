@@ -85,8 +85,6 @@ export default function TikTokPVAAccounts() {
           }}
         />
       </Head>
-
-  return (
     <div className="min-h-screen bg-white">
       <Navbar />
 
