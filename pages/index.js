@@ -384,7 +384,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-semibold mb-2 text-center">Gmail PVA Accounts</h3>
               <div className="text-center mb-4">
-                <span className="text-gray-500 line-through">$15.00</span> — <span className="text-2xl font-bold text-blue-600">$500.00</span>
+                <span className="text-gray-500 line-through">$35.00</span> — <span className="text-2xl font-bold text-blue-600">$30.00</span>
               </div>
               <Link href="/gmail-pva-accounts">
                 <button className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
@@ -399,7 +399,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-semibold mb-2 text-center">Instagram PVA Accounts</h3>
               <div className="text-center mb-4">
-                <span className="text-gray-500 line-through">$12.00</span> — <span className="text-2xl font-bold text-blue-600">$500.00</span>
+                <span className="text-gray-500 line-through">$40.00</span> — <span className="text-2xl font-bold text-blue-600">$25.00</span>
               </div>
               <Link href="/instagram-pva-accounts">
                 <button className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
@@ -414,7 +414,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-semibold mb-2 text-center">Facebook PVA Accounts</h3>
               <div className="text-center mb-4">
-                <span className="text-gray-500 line-through">$25.00</span> — <span className="text-2xl font-bold text-blue-600">$450.00</span>
+                <span className="text-gray-500 line-through">$35.00</span> — <span className="text-2xl font-bold text-blue-600">$30.00</span>
               </div>
               <Link href="/facebook-pva-accounts">
                 <button className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
@@ -429,7 +429,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-semibold mb-2 text-center">Twitter PVA Accounts</h3>
               <div className="text-center mb-4">
-                <span className="text-gray-500 line-through">$20.00</span> — <span className="text-2xl font-bold text-blue-600">$350.00</span>
+                <span className="text-gray-500 line-through">$35.00</span> — <span className="text-2xl font-bold text-blue-600">$25.00</span>
               </div>
               <Link href="/twitter-pva-accounts">
                 <button className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
@@ -444,7 +444,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-semibold mb-2 text-center">YouTube PVA Accounts</h3>
               <div className="text-center mb-4">
-                <span className="text-gray-500 line-through">$40.00</span> — <span className="text-2xl font-bold text-blue-600">$800.00</span>
+                <span className="text-gray-500 line-through">$40.00</span> — <span className="text-2xl font-bold text-blue-600">$30.00</span>
               </div>
               <Link href="/youtube-pva-accounts">
                 <button className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
@@ -459,7 +459,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-semibold mb-2 text-center">Google Voice Accounts</h3>
               <div className="text-center mb-4">
-                <span className="text-gray-500 line-through">$10.00</span> — <span className="text-2xl font-bold text-blue-600">$100.00</span>
+                <span className="text-gray-500 line-through">$10.00</span> — <span className="text-2xl font-bold text-blue-600">$7.00</span>
               </div>
               <Link href="/google-voice-accounts">
                 <button className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
